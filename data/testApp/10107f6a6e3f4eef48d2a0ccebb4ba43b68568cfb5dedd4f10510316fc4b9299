@@ -1,0 +1,5 @@
+activity::DialogActivity
+feature::android.hardware.touchscreen
+activity::.CalculatorUI
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.MAIN

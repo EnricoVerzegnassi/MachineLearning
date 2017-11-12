@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+url::app.folha.com.br
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+url::http://app.folha.com.br/downloads/android/folha.xml
+activity::Home
+permission::android.permission.INTERNET
+url::http://app.folha.com.br/downloads/android/
+activity::.Home
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+url::http://app.folha.com.br/reader/request/
+api_call::android/media/MediaPlayer;->start
+real_permission::android.permission.WAKE_LOCK

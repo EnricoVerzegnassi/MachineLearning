@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.MainSetup
+permission::android.permission.READ_PHONE_STATE
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
