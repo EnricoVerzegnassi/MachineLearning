@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+call::getDeviceId
+url::pagead2.googlesyndication.com
+call::printStackTrace
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+permission::android.permission.INTERNET
+url::http://chat.naooh.com/notice_sin.txt
+call::Read/Write External Storage
+call::getPackageInfo
+api_call::java/net/Socket
+real_permission::android.permission.WAKE_LOCK
+activity::.MainApp
+api_call::android/content/Context;->startActivity
+call::getSystemService
+api_call::android/os/PowerManager$WakeLock;->acquire
+url::http://chat.naooh.com
+call::Obfuscation(Base64)
+url::http://pagead2.googlesyndication.com/pagead/afma_load_ads.js
+real_permission::android.permission.READ_PHONE_STATE
+permission::android.permission.WAKE_LOCK
+call::sendSMS
+intent::android.intent.action.MAIN
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.INTERNET
+url::chat.naooh.com
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,9 @@
+activity::.childfamily
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://bighits.net/childrenfamily/index.php
+url::bighits.net
+api_call::android/webkit/WebView
+intent::android.intent.category.LAUNCHER

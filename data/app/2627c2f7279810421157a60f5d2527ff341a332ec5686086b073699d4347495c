@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+url::customer-webtools-api.internode.on.net
+feature::android.hardware.wifi
+permission::android.permission.ACCESS_WIFI_STATE
+permission::android.permission.ACCESS_NETWORK_STATE
+call::Obfuscation(Base64)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::https://customer-webtools-api.internode.on.net/api/v1.5/
+call::printStackTrace
+api_call::org/apache/http/impl/client/DefaultHttpClient
+provider::android.appwidget.provider
+call::getSystemService

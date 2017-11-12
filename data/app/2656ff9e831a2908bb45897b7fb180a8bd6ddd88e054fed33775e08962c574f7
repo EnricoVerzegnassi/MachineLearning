@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::com.wsribeiro.VisualizarCenario
+activity::.appLibroid
+activity::com.wsribeiro.CriarCenarioLibras
+url::http://pt.wikipedia.org
+activity::com.wsribeiro.ListarCenario
+activity::com.wsribeiro.LibroidSobre
+intent::android.intent.category.LAUNCHER
+activity::com.wsribeiro.CriarCenarioDatilologia
+activity::com.wsribeiro.LibrasSobre
+activity::com.wsribeiro.DatilologiaSobre
+url::pt.wikipedia.org
+activity::com.wsribeiro.ExcluirCenario
+activity::com.wsribeiro.Datilologia

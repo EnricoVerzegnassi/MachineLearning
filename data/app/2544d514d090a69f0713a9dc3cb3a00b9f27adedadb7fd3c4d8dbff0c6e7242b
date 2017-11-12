@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+activity::.RakuReviewSKE48
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://rakutenreview.info/ske48/
+permission::android.permission.INTERNET
+url::rakutenreview.info
+activity::jp.ne.sakura.androidappliske48.RakuReviewSKE48
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET

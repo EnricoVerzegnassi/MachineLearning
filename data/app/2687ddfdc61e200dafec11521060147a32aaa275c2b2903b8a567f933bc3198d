@@ -1,0 +1,29 @@
+feature::android.hardware.touchscreen
+url::schemas.xmlsoap.org
+call::printStackTrace
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+call::Execution of external commands
+url::http://ebook.mbe.com/services/types
+call::Cipher(AES/ECB/PKCS7Padding)
+real_permission::android.permission.WAKE_LOCK
+api_call::android/app/Activity;->startActivity
+real_permission::android.permission.VIBRATE
+api_call::java/lang/Runtime;->exec
+call::getSystemService
+url::ebook.mbe.com
+api_call::android/os/PowerManager$WakeLock;->acquire
+api_call::android/webkit/WebView
+call::Obfuscation(Base64)
+url::http://schemas.xmlsoap.org/soap/envelope/
+call::Cipher(DESEDE/CBC/NoPadding)
+activity::.InitActivity
+activity::sk.dynatech.android.eBookReader.activity.InitActivity
+intent::android.intent.category.DEFAULT
+call::Cipher(RSA/ECB/PKCS1PADDING)
+permission::android.permission.WAKE_LOCK
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
