@@ -38,6 +38,7 @@ def reduce():
 read_list_app();
 reduce()
 
+
 c=0
 #clf = GaussianNB()
 #X = numpy.array(apps)
