@@ -12,19 +12,27 @@ c = Characteristics()  #Create the structure for characteristics
 reducedMap={}
 
 def read_list_app():
-    app=[]
+
     malware=pd.read_csv(path_base+'/sha256_family.csv', sep=',')
     for filename in os.listdir(path_base+'/app/'):
+        app = []
         with open(path_base+'/app/'+filename) as f:
             if (malware['sha256'].str.contains(filename).any()):
                 malware_index.append(1)
                 print("Malware !!! "+filename)
             else:
                 malware_index.append(0)
+                print("Good App")
+
+            counter= 0
+            limit = 4
             for line in f.read().splitlines() :
-                arguments=line.split("::")
-                app.append(c.mapCharateristics(arguments[0],arguments[1]))
-                apps[filename]=app
+                arguments = line.split("::")
+                if(arguments[0] == "permission" and counter<limit):
+
+                    app.append(c.mapCharateristics(arguments[0],arguments[1]))
+                    counter= counter +1
+            apps[filename]=app
     print(malware_index)
 
 
@@ -39,7 +47,6 @@ read_list_app();
 reduce()
 
 
-c=0
 #clf = GaussianNB()
 #X = numpy.array(apps)
 #Y = numpy.array(malware_index)
