@@ -18,34 +18,19 @@ class AppInfoExtraction:
             with open(appDir + filename) as f:
                 if (malware['sha256'].str.contains(filename).any()):
                     self.malware_index.append(1)
-                    print("Malware !!! " + filename)
+                    #print("Malware !!! " + filename)
                 else:
                     self.malware_index.append(0)
-                    print("Good App")
+                    #print("Good App")
 
 
                 limit = 4
                 for line in f.read().splitlines():
                     arguments = line.split("::")
 
-                    
-                    if (arguments[0] == "url" and len(feature1) < limit):
-                        feature1.append(self.c.mapCharateristics(arguments[0], arguments[1]))
+                    #if (arguments[0] in ["permission","url","api_call","real_permission","intent"]):
+                    #    app.append(arguments[1])
+                    app.append(arguments[1])
 
+                self.apps.append(app)
 
-                    if (arguments[0] == "permission" and len(feature2) < limit):
-                        feature2.append(self.c.mapCharateristics(arguments[0], arguments[1]))
-
-
-                while (len(feature1) < 4):  # Aggiugo numeri zero fittizi per riempire i buchi
-                    feature1.append(0)
-
-                while (len(feature2) < 4):  # Aggiugo numeri zero fittizi per riempire i buchi
-                    feature2.append(0)
-
-                app.append(feature1)
-                app.append(feature2)
-
-                self.apps.append(numpy.array(app))
-
-        print(self.malware_index)
