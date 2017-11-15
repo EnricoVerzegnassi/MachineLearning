@@ -8,7 +8,7 @@ from sklearn import svm
 from AppInfoExtraction import AppInfoExtraction
 
 from sklearn.svm import SVC
-path_base="/Users/Jacopo/Desktop/Universita/SAPIENZA/ML/HW1/code/MachineLearning/data"
+path_base="/home/verz/Documenti/Studio/Università Sapienza/Corsi/3° Semestre/Machine Learning/HW/Code/data"
 
 
 reducedMap={}
@@ -39,26 +39,40 @@ predictedSVM=clf.predict(X_test)
 print ("Real Value")
 print (y_test)
 print ("SVM value")
-print predictedSVM
+print (predictedSVM)
 print("My Bayes-prediction")
 print(predictedB)
 
 
+Real_Malware=0
+NB_correct=0
+SVM_correct=0
 
-correctB_result=0
-correctSVM_result=0
+SVM_FalsePositive=0
+SVM_FalseNegative=0
+NB_FalsePositive=0
+NB_FalseNegative=0
 
 for i in range(len(y_test)):
-    if(y_test[i]!=0):
+    if(y_test[i]!=0):                           #False positive and false negative are not detected
+        Real_Malware+=1
         if(predictedB[i]==1):
-            correctB_result= correctB_result + 1
+            NB_correct += 1
+        else:
+            NB_FalseNegative +=1
         if (predictedSVM[i] == 1):
-            correctSVM_result = correctSVM_result + 1
+            SVM_correct += 1
+        else:
+            SVM_FalseNegative
+    else:
+        if(predictedB[i]==1):
+            NB_FalsePositive +=1
 
-print "Accuracy SVM Score: ",correctSVM_result / len(y_test).__float__()*100, '%'
-print "Accuracy Bayes Score: ",correctB_result / len(y_test).__float__()*100, '%'
+        if(predictedSVM[i]==1):
+            SVM_FalsePositive +=1
 
+print ("Accuracy SVM Score: ",str(SVM_correct / Real_Malware.__float__()*100), '%')
+print ("False Positive: ",SVM_FalsePositive,"False negative: ",SVM_FalseNegative)
+print ("Accuracy Bayes Score: ",NB_correct / Real_Malware.__float__()*100, '%')
+print ("False Positive: ",NB_FalsePositive,"False negative: ",NB_FalseNegative)
 
-
-#print "Error Score: ",1-correct_result / len(y_test).__float__(), '%'
-#print ("Accuracy Score: ",accuracy_score(y_test, predicted))

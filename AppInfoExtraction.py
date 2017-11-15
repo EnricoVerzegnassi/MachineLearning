@@ -18,19 +18,12 @@ class AppInfoExtraction:
             with open(appDir + filename) as f:                              #inpecting each file within the dataset
                 if (malware['sha256'].str.contains(filename).any()):        #It's a MALWARE!!!
                     self.malware_index.append(1)
-                    #print("Malware !!! " + filename)
                 else:
-                    self.malware_index.append(0)
-                    #print("Good App")
+                    self.malware_index.append(0)  #Good App
 
-
-                #limit = 4
                 for line in f.read().splitlines():
                     arguments = line.split("::")
-                    #if arguments[0] is not None:
-                     #   app.append(arguments[1])
-
-                    if (arguments[0] in ["permission","url","activity","api_call","real_permission","intent","feature","call"]):
+                    if (len(line)>0):
                          app.append(arguments[1])
 
 
