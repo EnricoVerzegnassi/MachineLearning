@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+call::getSystemService
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+url::http://www.bscyb.ch/news.aspx?navi%3D4
+activity::com.youngboysnews.splash
+url::www.bscyb.ch
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.splash
+real_permission::android.permission.INTERNET
+url::http://www.bscyb.ch/

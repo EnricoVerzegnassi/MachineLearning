@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://www.xmlvm.org
+url::www.youtube.com
+feature::android.hardware.screen.portrait
+activity::.AndroidFireworks
+intent::android.intent.category.LAUNCHER
+url::http://www.youtube.com/watch?v%3Ds8nMpi5-P-I
+url::www.xmlvm.org
+call::getSystemService

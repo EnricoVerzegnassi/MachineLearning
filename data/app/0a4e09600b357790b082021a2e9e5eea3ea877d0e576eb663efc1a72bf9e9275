@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::Ohtuleht
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://m.ohtuleht.ee
+intent::android.intent.category.LAUNCHER
+url::m.ohtuleht.ee
+activity::.Ohtuleht
+call::getSystemService
+url::http://m.ohtuleht.ee/?utm_source%3Dohtuleht&utm_medium%3Dandroid&utm_campaign%3Dmobile

@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::www.trentofestival.it
+url::www.pensareit.it
+permission::android.permission.INTERNET
+activity::.TrentoFilmFestival
+intent::android.intent.category.LAUNCHER
+url::http://www.pensareit.it
+call::getPackageInfo
+url::http://www.trentofestival.it
