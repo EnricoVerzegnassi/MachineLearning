@@ -63,7 +63,7 @@ for i in range(len(y_test)):
         if (predictedSVM[i] == 1):
             SVM_correct += 1
         else:
-            SVM_FalseNegative
+            SVM_FalseNegative+=1
     else:
         if(predictedB[i]==1):
             NB_FalsePositive +=1
