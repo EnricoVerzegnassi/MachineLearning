@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.About
+activity::.MotorFLCActivity
+activity::.OffsetWithTable
+activity::.VoltageDropActivity
+api_call::android/content/Context;->startActivity
+activity::.ADialogActivity
+activity::.ConduitPreferences
+activity::.ConduitFillActivity
+activity::.ConduitTabs
+activity::.PireWheel
+activity::.ThreeBendSaddle
+activity::.BoxFillActivity
+activity::.AmpacityActivity
+call::getSystemService
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::www.flickr.com
+api_call::android/media/MediaPlayer;->start
+url::http://www.flickr.com/groups/aurorabulb
+intent::android.intent.category.LAUNCHER
+activity::.ABPrefActivity
+call::getPackageInfo
+activity::.ABPreviewActivity
+real_permission::android.permission.WAKE_LOCK
+real_permission::android.permission.READ_CONTACTS
+api_call::android/content/ContentResolver;->query
+activity::Aurora Bulb
