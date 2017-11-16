@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+activity::Preferences
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+url::https://live.bullionvault.com/secure/login.do
+activity::.MainActivity
+permission::android.permission.INTERNET
+url::live.bullionvault.com
+url::https://live.bullionvault.com/secure/j_security_check?j_username%3D
+intent::android.intent.category.LAUNCHER
+url::https://live.bullionvault.com/secure/view_balance_xml.do
+activity::MainActivity
+real_permission::android.permission.INTERNET
+call::HttpPost
+url::http://live.bullionvault.com/view_market_xml.do

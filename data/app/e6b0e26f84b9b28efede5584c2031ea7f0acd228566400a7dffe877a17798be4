@@ -1,0 +1,110 @@
+call::Cipher(Cipher.BROKENPBEWITHSHA1ANDDES)
+call::Cipher(pad block corrupted)
+url::https://api.trambus.com.hr/get/routes/
+real_permission::android.permission.ACCESS_FINE_LOCATION
+url::api.trambus.com.hr
+call::Cipher(Cipher.RSA/ISO9796-1)
+call::Cipher(Cipher.RC2WRAP)
+call::HttpPost
+call::Cipher(Alg.Alias.Cipher.PBEWITHSHA1AND2-KEYTRIPLEDES-CBC)
+call::Cipher(Cipher.ELGAMAL/PKCS1)
+url::www.bouncycastle.org)
+activity::.PreLoad
+activity::.RouteTimeTable
+call::Cipher(Cipher.OLDPBEWITHSHAANDTWOFISH-CBC)
+call::Cipher(Cipher.OLDPBEWITHSHAAND3-KEYTRIPLEDES-CBC)
+call::getSystemService
+url::http://m.layar.com/open/javniprijevozstanice
+call::Cipher(Cipher.PBEWITHSHAAND128BITRC2-CBC)
+call::Cipher(Cipher.PBEWITHSHAANDTWOFISH-CBC)
+permission::android.permission.SEND_SMS
+call::Cipher(Cipher.PBEWITHSHAAND128BITAES-CBC-BC)
+call::Cipher(Cipher.RSA/OAEP)
+call::Cipher(Cipher.RSA/PKCS1)
+call::Cipher(Cipher.BROKENPBEWITHSHAAND2-KEYTRIPLEDES-CBC)
+call::Cipher(Cipher.PBEWITHMD5ANDDES)
+call::Cipher(Alg.Alias.Cipher.PBEWITHSHA1AND3-KEYTRIPLEDES-CBC)
+call::Cipher(Cipher.PBEWITHSHAAND3-KEYTRIPLEDES-CBC)
+url::http://www.bouncycastle.org)
+api_call::android/location/LocationManager;->getLastKnownLocation
+call::Cipher(Cipher.PBEWITHSHAAND128BITRC4)
+permission::android.permission.ACCESS_NETWORK_STATE
+url::m.layar.com
+call::Cipher(BlockLength too large for simple addition.\n)
+permission::android.permission.INTERNET
+url::http://api.trambus.com.hr/get/latest_version
+url::http://api.trambus.com.hr/get/nearest_stop
+call::Cipher(malformed signature)
+activity::.AlternativeRoutes
+call::Cipher(Cipher.PBEWITHSHAAND2-KEYTRIPLEDES-CBC)
+feature::android.hardware.location.gps
+call::Cipher(Cipher.RSA/2)
+activity::.TimeTable
+url::https://api.trambus.com.hr/get/latest_version
+api_call::android/content/Context;->startActivity
+url::https://api.trambus.com.hr/get/routes
+call::Cipher(Cipher.RSA)
+url::http://api.trambus.com.hr/get/route_calculation
+call::Cipher(Cipher.PBEWITHSHA1ANDDES)
+real_permission::android.permission.SEND_SMS
+call::Cipher(Cipher.ECIES)
+url::http://www.trambus.com.hr/algorithm/najblizaStanica10.php?lat%3D
+api_call::android/telephony/SmsManager;->sendTextMessage
+call::Cipher(mac check in EAX failed)
+url::https://api.trambus.com.hr/get/stops/
+url::https://api.trambus.com.hr/get/stops
+call::sendSMS
+call::Cipher(input too short)
+call::Cipher(Cipher.RSA/1)
+call::Cipher(Cipher.IES)
+feature::android.hardware.location.network
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_FINE_LOCATION
+call::Cipher(data too short)
+api_call::java/net/HttpURLConnection
+call::Read/Write External Storage
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+url::www.trambus.com.hr
+call::Cipher(Alg.Alias.Cipher.PBEWITHSHA1AND40BITRC4)
+call::Cipher(Cipher.ELGAMAL)
+call::Cipher(Cipher.PBEWITHMD5ANDRC2)
+call::Cipher(DES)
+call::Cipher(Cipher.BROKENPBEWITHSHAAND3-KEYTRIPLEDES-CBC)
+call::Cipher(Alg.Alias.Cipher.PBEWITHSHA1AND128BITRC2-CBC)
+call::Cipher(AES)
+call::Cipher(Camellia)
+activity::.WidgetBuyTicketDialog
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::Cipher(Cipher.PBEWITHSHAAND40BITRC4)
+call::Cipher(Cipher.BROKENPBEWITHMD5ANDDES)
+call::Cipher(Cipher.DES)
+call::Cipher(Mac codes failed to equal.)
+feature::android.hardware.touchscreen
+call::Cipher(Cipher.PBEWITHSHAAND40BITRC2-CBC)
+call::Cipher(invalid forcing byte in block)
+call::Cipher(Cipher.BrokenIES)
+permission::android.permission.READ_PHONE_STATE
+activity::.Main
+permission::android.permission.ACCESS_COARSE_LOCATION
+feature::android.hardware.location
+activity::.GoogleMap
+permission::android.permission.VIBRATE
+call::Cipher(Cipher.PBEWITHSHA1ANDRC2)
+call::Obfuscation(Base64)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+call::Cipher(Cipher.GOST28147)
+call::Cipher(Alg.Alias.Cipher.PBEWITHSHA1AND40BITRC2-CBC)
+feature::android.hardware.telephony
+call::Cipher(mac check in CCM failed)
+call::Cipher(Alg.Alias.Cipher.PBEWITHSHA1AND128BITRC4)
+activity::.RouteDirection
+call::Cipher(unwrap data must be a multiple of 8 bytes)
+intent::android.intent.action.MAIN
+real_permission::android.permission.INTERNET
+call::Cipher(block truncated)
+call::Cipher(Cipher.RC2)
+call::Cipher(Null pointer as ciphertext)
+call::Cipher(Cipher.1.2.840.113549.3.2)
+provider::android.appwidget.provider
+call::Cipher(Cipher.BrokenECIES)

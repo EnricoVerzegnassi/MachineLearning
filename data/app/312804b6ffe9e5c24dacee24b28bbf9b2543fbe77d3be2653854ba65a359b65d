@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.s42
+intent::android.intent.category.LAUNCHER
+url::blog.s42.com.ve
+url::http://blog.s42.com.ve

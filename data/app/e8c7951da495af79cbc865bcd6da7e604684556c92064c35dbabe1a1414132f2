@@ -1,0 +1,23 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+call::printStackTrace
+url::www.kj.triplelands.com
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+call::getPackageInfo
+url::http://sites.google.com/site/gson/gson-user-guide
+real_permission::android.permission.WAKE_LOCK
+url::sites.google.com
+activity::.SongActivity
+api_call::android/media/MediaPlayer;->start
+call::getSystemService
+activity::.activity.KJListActivity
+url::http://www.kj.triplelands.com/index.php/
+activity::.activity.SongListTabActivity
+activity::.activity.PKJListActivity
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::android.permission.INTERNET
+activity::.activity.NKBListActivity

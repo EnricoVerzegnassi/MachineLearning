@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::https://www.paypal.com/nvpsm?amount%3D
+activity::.SplitPay
+url::www.paypal.com
+intent::android.intent.category.LAUNCHER

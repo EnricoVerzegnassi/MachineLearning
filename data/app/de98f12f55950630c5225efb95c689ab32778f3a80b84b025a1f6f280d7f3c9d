@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+permission::android.permission.WAKE_LOCK
+provider::android.appwidget.provider
+intent::android.intent.action.BATTERY_CHANGED
+api_call::android/content/Context;->startService
+service_receiver::BatteryInfo
+service_receiver::.BatteryWidget$UpdateService

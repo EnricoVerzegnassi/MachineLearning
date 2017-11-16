@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+api_call::android/app/Activity;->startActivity
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+url::http://www.destination-savoiemontblanc.com/infos-android.php
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+activity::.SkiContest
+real_permission::android.permission.INTERNET
+url::www.destination-savoiemontblanc.com
+call::getSystemService

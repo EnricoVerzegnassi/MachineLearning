@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::market.android.com
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://market.android.com/search?q%3DBattleflood
+feature::android.hardware.screen.portrait
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+activity::.Battleflood
+call::getSystemService

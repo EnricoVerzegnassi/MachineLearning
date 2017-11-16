@@ -1,0 +1,5 @@
+feature::android.hardware.touchscreen
+service_receiver::CustomInputMethod
+api_call::android/media/MediaPlayer;->start
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

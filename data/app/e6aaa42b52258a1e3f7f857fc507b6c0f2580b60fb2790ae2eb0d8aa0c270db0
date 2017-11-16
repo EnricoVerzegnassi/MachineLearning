@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+service_receiver::.MusicBroadcastReceiver
+intent::android.intent.action.CREATE_SHORTCUT
+api_call::android/content/Context;->startActivity
+intent::android.intent.category.DEFAULT
+activity::.CreateShortcut
+intent::android.intent.category.LAUNCHER
+permission::com.android.launcher.permission.INSTALL_SHORTCUT
+activity::.GoodTimeMusic

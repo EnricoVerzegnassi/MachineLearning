@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+url::home.sarang224.com
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+activity::.MenuPanSliding
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+service_receiver::.MenuPanService
+intent::android.intent.category.LAUNCHER
+url::http://home.sarang224.com/select.php?Date%3D
+real_permission::android.permission.READ_CONTACTS
+provider::android.appwidget.provider
+api_call::android/content/Context;->startActivity
+call::getSystemService
+activity::.MenuPanHallSetting

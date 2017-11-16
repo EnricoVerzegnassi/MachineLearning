@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://cdn.mslfrance.fr/ptz/10_09_02_ITW_REFORME_ACCES_PROPRIETE.mp4
+activity::.SplashscreenActivity
+feature::android.hardware.screen.portrait
+url::http://cdn.mslfrance.fr/ptz/10_09_06_ITW_MARINI.mp4
+url::http://cdn.mslfrance.fr/ptz/10_06_09_ACCESSION_PROPRIETE_TITRE.mp4
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::http://cdn.mslfrance.fr/ptz/10_06_09_CREDOC_TITRE.mp4
+url::cdn.mslfrance.fr
+url::http://cdn.mslfrance.fr/ptz/10_09_07_ITWDININPUBLICIS.mp4
+call::getSystemService

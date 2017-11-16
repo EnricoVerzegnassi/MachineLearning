@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.action.MAIN
+feature::android.hardware.wifi
+activity::PhotoSwap
+feature::android.hardware.camera.autofocus
+feature::android.hardware.camera
+activity::.AppEntry
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE
+call::getPackageInfo
+permission::android.permission.CAMERA
+permission::android.permission.ACCESS_WIFI_STATE

@@ -1,0 +1,5 @@
+feature::android.hardware.touchscreen
+activity::.ScheroidActivity
+activity::.RegistActivity
+provider::android.appwidget.provider
+service_receiver::.ClockWidgetProvider

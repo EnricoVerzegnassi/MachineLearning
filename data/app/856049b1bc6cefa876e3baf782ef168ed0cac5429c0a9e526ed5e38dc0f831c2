@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.azineMobile
+url::http://mlive.incheon.go.kr/
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://smart.incheon.go.kr
+url::smart.incheon.go.kr
+intent::android.intent.category.LAUNCHER
+url::mlive.incheon.go.kr

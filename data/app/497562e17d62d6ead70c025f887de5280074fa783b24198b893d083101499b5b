@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+url::http://7ba.ru/jfiles/46/MarksmanShooting_Nokia_176x208.jar
+intent::android.intent.action.MAIN
+url::www.fugumobile.com
+api_call::android/content/Context;->startActivity
+url::http://www.netmite.com/android/andme_signed.apk
+activity::.ShootGameMIDlet
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+url::http://www.fugumobile.com/backend/scoresubmission.asp?game%3DShotGame&name%3D
+url::7ba.ru
+url::www.netmite.com

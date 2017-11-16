@@ -1,0 +1,18 @@
+permission::android.permission.SET_WALLPAPER
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::printStackTrace
+api_call::android/app/WallpaperManager;->setResource
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+call::Read/Write External Storage
+url::http://apphu.com/do
+activity::.AppHuLogoActivity
+intent::android.intent.category.LAUNCHER
+url::apphu.com
+api_call::android/webkit/WebView
+activity::.AllWallpapersActivity
+real_permission::android.permission.INTERNET
+activity::.AppHuWallpaperActivity
+real_permission::android.permission.SET_WALLPAPER

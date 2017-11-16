@@ -1,0 +1,24 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->setWallpaper
+call::printStackTrace
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+call::HttpPost
+api_call::android/content/ContentResolver;->query
+api_call::java/net/Socket
+call::getSystemService
+service_receiver::com.tomgibara.yoke.android.YokeThumbnailService
+call::Obfuscation(Base64)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+activity::Test
+api_call::android/content/Context;->startService
+permission::android.permission.SET_WALLPAPER
+intent::android.intent.action.MAIN
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.SplashActivity
+real_permission::android.permission.SET_WALLPAPER

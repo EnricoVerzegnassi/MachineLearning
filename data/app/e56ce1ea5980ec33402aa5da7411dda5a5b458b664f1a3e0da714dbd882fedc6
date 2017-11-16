@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+intent::android.intent.action.MAIN
+service_receiver::LetMeBootBroadcast
+service_receiver::LetMeBroadcast
+activity::.ConfigureProfile
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.BOOT_COMPLETED
+call::getSystemService
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+service_receiver::com.lalain.LetMeSleep.LetMeService
+url::http://schemas.android.com/apk/res/android
+url::schemas.android.com

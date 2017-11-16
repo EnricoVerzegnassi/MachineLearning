@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+permission::android.permission.BIND_APPWIDGET
+real_permission::android.permission.BIND_APPWIDGET
+intent::android.intent.category.DEFAULT
+activity::AppWidgetPicker
+api_call::android/appwidget/AppWidgetManager;->bindAppWidgetId
+call::getSystemService

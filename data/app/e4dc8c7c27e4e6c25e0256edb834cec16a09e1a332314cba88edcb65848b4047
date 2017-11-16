@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.Main
+call::Read/Write External Storage
+activity::.PreviewDisp
+activity::.SdRead
+activity::.SdCardDisplayActivity
+api_call::android/content/ContentResolver;->query
+real_permission::android.permission.READ_CONTACTS
+activity::.SdReadSelect
+call::getSystemService
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,15 @@
+url::http://30by40.com
+feature::android.hardware.touchscreen
+activity::.OnTheFlyBackupActivity
+intent::android.intent.action.MAIN
+url::30by40.com
+permission::android.permission.RESTART_PACKAGES
+api_call::android/content/Context;->startActivity
+real_permission::android.permission.READ_LOGS
+api_call::android/app/ActivityManager;->restartPackage
+real_permission::android.permission.RESTART_PACKAGES
+call::Execution of external commands
+intent::android.intent.category.LAUNCHER
+call::Read/Write External Storage
+api_call::java/lang/Runtime;->exec
+call::getSystemService

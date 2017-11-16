@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::https://check.torproject.org/
+intent::android.intent.action.MAIN
+url::check.torproject.org
+call::printStackTrace
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.PrivateBrowserActivity
+api_call::android/webkit/WebView
+call::getSystemService

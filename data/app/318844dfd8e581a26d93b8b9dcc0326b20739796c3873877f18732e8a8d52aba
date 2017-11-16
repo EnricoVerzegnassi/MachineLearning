@@ -1,0 +1,26 @@
+feature::android.hardware.touchscreen
+url::http://news4vip.livedoor.biz/index.rdf
+url::http://alfalfalfa.com/index.rdf
+url::news4vip.livedoor.biz
+call::Read/Write External Storage
+call::getPackageInfo
+real_permission::android.permission.WAKE_LOCK
+api_call::android/media/MediaPlayer;->start
+call::printStackTrace
+activity::.MainActivity
+permission::com.android.browser.permission.READ_HISTORY_BOOKMARKS
+activity::.InfoActivity
+url::http://mudainodqnment.ldblog.jp/index.rdf
+call::getSystemService
+url::alfalfalfa.com
+url::http://blog.livedoor.jp/dqnplus/index.rdf
+url::mudainodqnment.ldblog.jp
+permission::android.permission.INTERNET
+activity::.NewsListActivity
+real_permission::com.android.browser.permission.READ_HISTORY_BOOKMARKS
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+real_permission::android.permission.INTERNET
+url::blog.livedoor.jp
+intent::android.intent.category.LAUNCHER
+api_call::android/provider/Browser;->getAllBookmarks

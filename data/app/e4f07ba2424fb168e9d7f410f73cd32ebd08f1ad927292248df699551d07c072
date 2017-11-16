@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+activity::.Besilka
+url::sites.google.com
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/media/MediaPlayer;->start
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+api_call::java/net/URL;->openStream
+intent::android.intent.category.LAUNCHER
+permission::android.permission.READ_PHONE_STATE
+url::https://sites.google.com/site/mynumis10/Home/XMLDATABASE.xml
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

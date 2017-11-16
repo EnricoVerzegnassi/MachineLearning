@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+url::http://simplywhimsicalgifts.com/mp/up.php?name%3D
+api_call::android/content/ContentResolver;->openInputStream
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+url::http://simplywhimsicalgifts.com/mp/down.php?name%3D
+activity::.Main
+intent::android.intent.category.PREFERENCE
+url::http://simplywhimsicalgifts.com/mp/get.php?name%3D
+service_receiver::com.monadpad.le.dsp.SynthService
+url::http://simplywhimsicalgifts.com/mp/make.php?name%3D
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.READ_CONTACTS
+real_permission::android.permission.INTERNET
+activity::Main
+url::simplywhimsicalgifts.com

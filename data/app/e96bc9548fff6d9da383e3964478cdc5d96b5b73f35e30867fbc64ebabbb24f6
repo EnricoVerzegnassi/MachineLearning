@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+api_call::java/net/Socket
+call::Obfuscation(Base64)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+call::Execution of external commands
+activity::.ipv6Utility
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+call::HttpPost
+api_call::java/lang/Runtime;->exec
+call::getSystemService

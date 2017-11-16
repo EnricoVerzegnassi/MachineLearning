@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+intent::android.intent.action.USER_PRESENT
+api_call::android/content/Context;->startService
+service_receiver::.UserPresentReceiver
+service_receiver::.DigiWatchService
+provider::android.appwidget.provider
+intent::android.intent.category.INFO

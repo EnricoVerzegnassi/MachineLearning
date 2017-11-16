@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://www.meetagamer.com/imobile.php?task%3Dset_display&mode%3Dmobile
+api_call::android/webkit/WebView
+activity::.meetagamer
+permission::android.permission.INTERNET
+url::www.meetagamer.com
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

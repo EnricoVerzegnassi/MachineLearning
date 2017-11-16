@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+url::www.netmite.com
+intent::android.intent.action.MAIN
+activity::.HancockMIDlet
+api_call::android/content/Context;->startActivity
+url::http://www.netmite.com/android/andme_signed.apk
+url::http://www.netmite.com/android/srv/1.6/upload/hancock_fkj974ct.jar
+intent::android.intent.category.ALTERNATIVE
+call::getPackageInfo
+intent::android.intent.category.LAUNCHER

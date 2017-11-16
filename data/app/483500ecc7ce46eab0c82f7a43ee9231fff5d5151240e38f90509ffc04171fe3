@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+activity::Spidey Nation
+url::http://mobile.spideynation.com
+url::http://mobile.spideynation.com/schedule
+intent::android.intent.action.MAIN
+url::http://mobile.spideynation.com/roster
+activity::.Main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::http://mobile.spideynation.com/about
+url::mobile.spideynation.com
+url::http://mobile.spideynation.com/stats

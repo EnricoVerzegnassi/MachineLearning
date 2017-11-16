@@ -1,0 +1,10 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+activity::.SokobanMenuActivity
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+api_call::android/os/Vibrator;->vibrate
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+call::getPackageInfo
+call::getSystemService

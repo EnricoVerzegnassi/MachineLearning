@@ -1,0 +1,16 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.location.network
+api_call::android/telephony/TelephonyManager;->getCellLocation
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+url::http://www.google.com/glm/mmap
+url::www.google.com
+permission::android.permission.ACCESS_COARSE_LOCATION
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+feature::android.hardware.location
+real_permission::android.permission.ACCESS_FINE_LOCATION
+activity::.SplitMoney
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+call::getSystemService

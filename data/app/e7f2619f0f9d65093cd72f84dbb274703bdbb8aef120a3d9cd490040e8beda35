@@ -1,0 +1,97 @@
+service_receiver::.UpdateAction
+service_receiver::.UpdateClockService
+real_permission::android.permission.ACCESS_FINE_LOCATION
+call::getPackageInfo
+activity::.WidgetToggles
+activity::.Preview
+service_receiver::Weather Tiny
+activity::.WeatherPreferences
+call::getSystemService
+api_call::android/bluetooth/BluetoothAdapter;->setScanMode
+api_call::android/bluetooth/BluetoothAdapter;->isEnabled
+url::http://market.android.com/search?q%3Dandroidapps
+activity::Screen Brightness
+url::http://www.google.com/ig
+url::http://slideunlocker.googlecode.com/svn/trunk/downloads/clock.txt
+real_permission::android.permission.WRITE_SECURE_SETTINGS
+service_receiver::Weather & Flip Clock
+intent::android.intent.action.MAIN
+permission::android.permission.INTERNET
+service_receiver::Weather widget Process manager
+permission::android.permission.WRITE_SETTINGS
+feature::android.hardware.location.gps
+service_receiver::Weather widget Slience toggle
+api_call::android/bluetooth/BluetoothAdapter;->disable
+url::lock20.wordpress.com
+service_receiver::Weather widget Gps toggle
+real_permission::android.permission.BLUETOOTH
+api_call::android/content/Context;->startService
+url::http://slideunlocker.googlecode.com/svn/trunk/downloads/weather.txt
+intent::android.bluetooth.intent.action.BLUETOOTH_STATE_CHANGED
+permission::android.permission.CHANGE_WIFI_STATE
+api_call::android/net/wifi/WifiManager;->getWifiState
+url::http://lock20.wordpress.com
+service_receiver::Weather widget Bluetooth toggle
+feature::android.hardware.location.network
+service_receiver::.UpdateService
+real_permission::android.permission.CHANGE_COMPONENT_ENABLED_STATE
+permission::android.permission.ACCESS_FINE_LOCATION
+url::http://www.google.com/ig/api?weather%3D
+call::getWifiState
+service_receiver::Weather Large
+real_permission::android.permission.READ_CONTACTS
+intent::android.intent.action.AIRPLANE_MODE
+activity::.SkinDownloader
+api_call::android/location/LocationManager;->requestLocationUpdates
+url::http://market.android.com/search?q%3Dpname:org.openintents.filemanager
+activity::.InfoActivity
+call::setWifiEnabled
+activity::.ConfigurationManager
+url::http://slideunlocker.googlecode.com/svn/trunk/downloads/weather-default.zip
+permission::android.permission.BLUETOOTH
+service_receiver::.UpdateLocationService
+service_receiver::Weather widget 3G toggle
+activity::.MoreWidget
+real_permission::android.permission.CHANGE_WIFI_STATE
+intent::android.bluetooth.intent.action.ENABLED
+api_call::java/net/URL;->openConnection
+real_permission::android.permission.BLUETOOTH_ADMIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.bluetooth
+permission::android.permission.BLUETOOTH_ADMIN
+api_call::android/app/NotificationManager;->notify
+service_receiver::Weather Small
+feature::android.hardware.touchscreen
+service_receiver::Weather widget Wifi toggle
+call::printStackTrace
+real_permission::android.permission.WRITE_SETTINGS
+service_receiver::Weather widget Plane toggle
+intent::android.intent.category.DEFAULT
+intent::android.intent.action.SEARCH
+url::http://market.android.com/search?q%3D
+real_permission::android.permission.ACCESS_WIFI_STATE
+service_receiver::Weather widget Toggle Bar 2
+service_receiver::Weather widget Toggle Bar 1
+api_call::android/content/ContentResolver;->query
+url::market.android.com
+permission::android.permission.ACCESS_WIFI_STATE
+url::www.google.com
+permission::android.permission.ACCESS_COARSE_LOCATION
+url::slideunlocker.googlecode.com
+intent::android.bluetooth.intent.action.DISABLED
+feature::android.hardware.location
+real_permission::android.permission.VIBRATE
+intent::android.net.wifi.WIFI_STATE_CHANGED
+intent::android.intent.category.LAUNCHER
+permission::android.permission.VIBRATE
+intent::android.intent.action.CLOSE_SYSTEM_DIALOGS
+url::http://www.google.com/ig/api?weather%3D,,,
+activity::.ConfigureActivity
+api_call::android/provider/Settings$System;->putInt
+feature::android.hardware.wifi
+api_call::android/content/pm/PackageManager;->setComponentEnabledSetting
+api_call::android/net/wifi/WifiManager;->setWifiEnabled
+real_permission::android.permission.INTERNET
+service_receiver::Weather widget Brightness toggle
+url::http://market.android.com/search?q%3Dpname:com.androidapps.weather.forecastaddon
+provider::android.appwidget.provider

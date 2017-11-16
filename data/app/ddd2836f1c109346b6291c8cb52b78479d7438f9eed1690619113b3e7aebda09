@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.FxWallpaperSetting4
+api_call::java/net/Socket
+call::getSystemService

@@ -1,0 +1,12 @@
+api_call::android/webkit/WebView
+feature::android.hardware.touchscreen
+url::flyloopproject.com
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.LongGoalScream
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://flyloopproject.com/myads.html
+api_call::android/media/MediaPlayer;->start
+real_permission::android.permission.WAKE_LOCK

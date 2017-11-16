@@ -1,0 +1,5 @@
+activity::.BallActivity
+feature::android.hardware.touchscreen
+activity::BallActivity
+intent::android.intent.action.MAIN
+intent::android.intent.category.LAUNCHER

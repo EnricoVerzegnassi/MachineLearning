@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://mobile.usureview.com/roster
+intent::android.intent.action.MAIN
+url::http://mobile.usureview.com
+url::http://mobile.usureview.com/schedule
+activity::.Main
+activity::USU Review
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://mobile.usureview.com/stats
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::mobile.usureview.com
+url::http://mobile.usureview.com/about

@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+url::https://market.android.com/details?id%3Dorg.adwtheme.sexygirls
+intent::android.intent.action.MAIN
+url::market.android.com
+activity::.Main
+url::https://market.android.com/details?id%3Dorg.adwtheme.Crystal_Black_HD
+intent::android.intent.category.LAUNCHER
+activity::com.betterandroid.betterkeyboard.captainamerica.Main

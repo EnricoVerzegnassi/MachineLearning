@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::MainList
+intent::android.intent.category.DEFAULT
+activity::MySearch
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.WAKE_LOCK
+intent::android.intent.action.SEARCH
+api_call::android/media/MediaPlayer;->start
+activity::.MainList

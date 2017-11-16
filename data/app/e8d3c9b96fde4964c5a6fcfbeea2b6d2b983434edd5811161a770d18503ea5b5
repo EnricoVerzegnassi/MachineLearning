@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+url::http://www.rerware.com/Asteroids/ViewScores.aspx
+intent::android.intent.action.MAIN
+url::www.rerware.com
+api_call::android/media/MediaPlayer;->start
+call::Obfuscation(Base64)
+permission::android.permission.INTERNET
+url::http://www.rerware.com/Asteroids/ViewScoresDiff.aspx?name%3D
+activity::.MainMenu
+intent::android.intent.category.LAUNCHER
+url::http://www.rerware.com
+api_call::android/webkit/WebView
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+api_call::android/content/Context;->startActivity
+real_permission::android.permission.WAKE_LOCK

@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::printStackTrace
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+api_call::android/media/MediaPlayer;->stop
+intent::android.intent.category.LAUNCHER
+api_call::java/net/NetworkInterface
+activity::.BfrxTab
+call::Read/Write External Storage
+real_permission::android.permission.WAKE_LOCK

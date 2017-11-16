@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+activity::.OptionsActivities$FeedsActivity
+intent::android.intent.action.MAIN
+url::http://gdata.youtube.com/feeds/api/standardfeeds/
+url::http://i.ytimg.com/vi/
+api_call::android/content/Context;->startActivity
+real_permission::android.permission.INTERNET
+url::www.youtube.com
+permission::android.permission.INTERNET
+activity::.StartActivity
+activity::.OptionsActivities$AccountActivity
+url::gdata.youtube.com
+intent::android.intent.category.LAUNCHER
+url::http://gdata.youtube.com/feeds/api/users/
+url::http://www.youtube.com/watch?v%3D
+url::i.ytimg.com
+api_call::java/net/URL;->getContent

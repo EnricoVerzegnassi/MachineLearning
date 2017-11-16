@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+call::getDeviceId
+service_receiver::.EmulatorService
+activity:::emulator
+activity::.settings.KeyMappingSettings
+intent::android.intent.category.DEFAULT
+activity::.SaveSlotsActivity
+activity::.settings.EmulatorSettings
+intent::android.intent.action.CREATE_SHORTCUT
+url::schemas.fastemulator.com
+call::printStackTrace
+activity::.MainActivity
+real_permission::android.permission.VIBRATE
+call::getSystemService
+url::http://xmlpull.org/v1/doc/features.html
+permission::android.permission.VIBRATE
+activity::.CreateShortcuts
+feature::android.hardware.screen.landscape
+activity::.CheatsActivity
+call::Read/Write External Storage
+intent::android.intent.action.VIEW
+url::http://schemas.fastemulator.com/emu
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::xmlpull.org
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,3 @@
+feature::android.hardware.touchscreen
+activity::.RedHatThemeActivity
+intent::android.intent.category.DEFAULT

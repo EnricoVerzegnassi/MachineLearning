@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+api_call::android/os/PowerManager$WakeLock;->acquire
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+permission::android.permission.READ_PHONE_STATE
+activity::.main
+permission::android.permission.INTERNET
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+call::printStackTrace
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

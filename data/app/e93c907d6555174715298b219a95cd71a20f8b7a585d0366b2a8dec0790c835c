@@ -1,0 +1,11 @@
+activity::.WindowOpts
+feature::android.hardware.touchscreen
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.HelpInfo
+activity::.EquationEditor
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+activity::.Grapher
+activity::.TextDialog

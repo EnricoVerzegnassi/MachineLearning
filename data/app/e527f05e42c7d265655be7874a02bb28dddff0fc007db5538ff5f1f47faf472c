@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+url::http://is.eranet.pl/updir/era.cgi?msisdn%3D48
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+activity::.MainActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::is.eranet.pl
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS

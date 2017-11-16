@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+activity::.Lock
+feature::android.hardware.screen.portrait
+url::http://moonraven.net
+intent::android.intent.category.LAUNCHER
+service_receiver::Car Locker
+real_permission::android.permission.WAKE_LOCK
+provider::android.appwidget.provider
+url::moonraven.net

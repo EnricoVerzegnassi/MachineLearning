@@ -7,7 +7,6 @@ import numpy
 class AppInfoExtraction:
     apps = []
     malware_index = []
-    c = Characteristics()  # Create the structure for characteristics
     vector_lenght = 1024
     def read_list_app(self, appDir, malwareList):
 

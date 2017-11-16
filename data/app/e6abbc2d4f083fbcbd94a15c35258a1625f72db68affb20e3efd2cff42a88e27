@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::game-mobileaim.s3.amazonaws.com
+api_call::android/content/Context;->startActivity
+url::http://www.netmite.com/android/andme_signed.apk
+intent::android.intent.category.LAUNCHER
+url::www.netmite.com
+call::getPackageInfo
+url::http://game-mobileaim.s3.amazonaws.com/games/Turok_v3.jar
+activity::.GMIDlet

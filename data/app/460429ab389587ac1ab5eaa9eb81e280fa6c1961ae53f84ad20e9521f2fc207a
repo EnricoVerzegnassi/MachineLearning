@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::.PictureBrowser
+activity::High Scores
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+activity::.SDCardImagesPreLoad
+activity::.SDCardImagesActivity
+activity::.Settings
+intent::android.intent.category.LAUNCHER
+activity::New High Score
+activity::.GameStart

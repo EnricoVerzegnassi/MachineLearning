@@ -1,0 +1,23 @@
+api_call::java/net/HttpURLConnection
+permission::android.permission.ACCESS_FINE_LOCATION
+feature::android.hardware.touchscreen
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+real_permission::android.permission.ACCESS_FINE_LOCATION
+call::getPackageInfo
+real_permission::android.permission.WAKE_LOCK
+feature::android.hardware.location.gps
+activity::DownloaderActivity
+url::www.google.com
+api_call::android/media/MediaPlayer;->start
+feature::android.hardware.location
+url::http://www.google.com/ig/api?hl%3Dzh-cn&weather%3D,,,
+call::getSystemService
+url::www.car2bon.net
+activity::.mainActivity
+api_call::android/location/LocationManager;->requestLocationUpdates
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://www.car2bon.net/android/download.xml

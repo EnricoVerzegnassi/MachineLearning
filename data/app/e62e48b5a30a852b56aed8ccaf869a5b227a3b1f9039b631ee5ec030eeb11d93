@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+activity::.ConfigActivity
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+api_call::android/content/Context;->startService
+real_permission::android.permission.INTERNET
+service_receiver::Site Alert Widget
+provider::android.appwidget.provider
+service_receiver::.SiteAlertService

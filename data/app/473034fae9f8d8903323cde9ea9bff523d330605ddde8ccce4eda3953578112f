@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+url::http://50.19.255.176/chister/wrapper.jsp
+url::http://50.19.255.176/chister/go/deletenewssite.doit
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+call::HttpPost
+url::http://50.19.255.176/chister/go/getnewsxml.doit
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+permission::android.permission.GET_ACCOUNTS
+url::http://50.19.255.176/chister/go/addnewssite.doit
+url::50.19.255.176
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.GET_ACCOUNTS
+activity::.InitWrapper
+api_call::android/accounts/AccountManager;->getAccounts

@@ -1,0 +1,15 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::Scanner Activity
+feature::android.hardware.camera.autofocus
+feature::android.hardware.camera
+call::printStackTrace
+permission::android.permission.INTERNET
+permission::android.permission.FLASHLIGHT
+call::Read/Write External Storage
+feature::android.hardware.screen.landscape
+activity::.CCCFirst
+permission::android.permission.CAMERA
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,22 @@
+url::http://www.fujirockfestival.com/
+url::twitter.com
+feature::android.hardware.touchscreen
+url::https://twitter.com/
+permission::android.permission.INTERNET
+url::search.twitter.com
+call::Read/Write External Storage
+url::www.fujirockfestival.com
+activity::com.afropunx.common.TwitterSearchActivity
+api_call::android/content/Context;->startActivity
+activity::com.afropunx.common.TimeScheduleActivity
+url::http://smash-jpn.com/index.php
+activity::.InfoActivity
+call::getSystemService
+url::http://search.twitter.com/search.json?q%3D
+url::smash-jpn.com
+api_call::java/net/HttpURLConnection
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.INTERNET
+activity::.FujiRockActivity
+intent::android.intent.category.LAUNCHER

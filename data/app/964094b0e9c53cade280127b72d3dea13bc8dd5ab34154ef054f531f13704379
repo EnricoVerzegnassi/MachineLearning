@@ -1,0 +1,54 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+call::printStackTrace
+permission::android.permission.MODIFY_AUDIO_SETTINGS
+permission::android.permission.READ_PHONE_STATE
+url::http://server:3689/
+permission::android.permission.INTERNET
+activity::.daapBrowserActivity
+call::Read/Write External Storage
+intent::android.intent.action.SEARCH
+real_permission::android.permission.WAKE_LOCK
+feature::android.hardware.microphone
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.RECORD_AUDIO
+activity::.lockscreen
+url::http://www.apache.org\
+service_receiver::Lithium Player 4x1
+service_receiver::Lithium Player 4x2
+service_receiver::Lithium Player Media Service
+service_receiver::Lithium Player 4x4
+url::www.apache.org%21
+url::www.google.com
+activity::.preferencesBrowser
+url::http://[\\.\\w\\-\\?/
+real_permission::android.permission.INTERNET
+api_call::android/telephony/TelephonyManager;->listen
+activity::.playerControl
+call::getSystemService
+service_receiver::.appWidgetProviderLarge$UpdateServiceWL
+api_call::android/media/MediaPlayer;->stop
+activity::.tagEditor
+activity::.playlistBrowser
+permission::android.permission.WAKE_LOCK
+permission::android.permission.BLUETOOTH
+activity::.ZPlayer
+url::www.apache.org\
+service_receiver::Lithium Player 4x3
+permission::android.permission.DISABLE_KEYGUARD
+permission::android.permission.BIND_APP_WIDGET
+url::server
+api_call::android/content/Context;->sendBroadcast
+real_permission::android.permission.READ_PHONE_STATE
+api_call::android/content/ContentResolver;->query
+url::http://www.google.com/images?hl%3Dde&source%3Dimghp&q%3D
+intent::android.intent.action.MAIN
+activity::.helpView
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+service_receiver::.appWidgetProviderHuge$UpdateServiceWH
+feature::android.hardware.bluetooth
+feature::android.hardware.screen.portrait
+service_receiver::.appWidgetProviderMedium$UpdateServiceWM
+intent::android.intent.category.LAUNCHER
+url::http://www.apache.org%21
+provider::android.appwidget.provider

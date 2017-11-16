@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+url::www.clearplay.com
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+call::HttpPost
+api_call::android/media/MediaPlayer;->start
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::https://www.clearplay.com/fun2gather/askmomresults.aspx
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+activity::.Video
+intent::android.intent.category.DEFAULT
+intent::android.intent.action.VIEW
+activity::.AskMom
+real_permission::android.permission.WAKE_LOCK

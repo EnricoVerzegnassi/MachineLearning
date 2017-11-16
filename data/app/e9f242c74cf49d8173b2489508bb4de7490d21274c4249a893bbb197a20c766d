@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.About
+activity::.Home
+url::http://thewordofpromise.thomasnelson.com
+api_call::android/media/MediaPlayer;->start
+activity::.Cast
+activity::.SampleList
+feature::android.hardware.screen.portrait
+activity::.Purchase
+real_permission::android.permission.WAKE_LOCK
+intent::android.intent.category.LAUNCHER
+activity::.Splash
+url::thewordofpromise.thomasnelson.com
+intent::android.intent.category.DEFAULT
+call::getSystemService
+activity::.Listen

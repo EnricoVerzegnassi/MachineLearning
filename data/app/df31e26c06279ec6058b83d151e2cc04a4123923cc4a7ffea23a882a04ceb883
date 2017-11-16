@@ -1,0 +1,5 @@
+feature::android.hardware.touchscreen
+provider::android.appwidget.provider
+api_call::android/content/Context;->startService
+service_receiver::.SDCardMemoryWidget$UpdateService
+call::Read/Write External Storage

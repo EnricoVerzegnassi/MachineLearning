@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::org.gs.components.graphics.SpriteMethodTest
+intent::android.intent.action.MAIN
+activity::org.gs.bullet.OpenGLTestActivity
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+activity::.SpriteMethodTest
+call::getSystemService

@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+activity::com.epidemique.plusone.PlusOne
+intent::android.intent.action.MAIN
+activity::com.epidemique.plusone.SplashScreenActivity
+activity::com.epidemique.plusone.CalendarActivity
+activity::.PlusOne
+intent::android.intent.category.LAUNCHER

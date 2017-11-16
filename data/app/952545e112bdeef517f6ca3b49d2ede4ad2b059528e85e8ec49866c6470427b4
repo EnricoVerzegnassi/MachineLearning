@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+real_permission::android.permission.ACCESS_NETWORK_STATE
+feature::android.hardware.screen.portrait
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+intent::android.intent.category.LAUNCHER
+activity::.Starter
+call::Read/Write External Storage
+provider::android.appwidget.provider
+service_receiver::.WidgetProvider
+call::getSystemService

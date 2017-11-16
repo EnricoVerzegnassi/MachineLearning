@@ -1,0 +1,16 @@
+activity::.AperosPasChers
+feature::android.hardware.location.gps
+permission::android.permission.ACCESS_FINE_LOCATION
+url::http://aperos-pas-chers.appspot.com/service/addBar?
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startActivity
+url::http://aperos-pas-chers.appspot.com/service/addBarError?
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+feature::android.hardware.location
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+url::http://aperos-pas-chers.appspot.com/service/editBar?
+url::http://aperos-pas-chers.appspot.com/service/getAllBars
+url::aperos-pas-chers.appspot.com

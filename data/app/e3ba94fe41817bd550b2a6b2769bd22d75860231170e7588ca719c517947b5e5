@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::com.eminencecs.PixieLogo.LLOYDSmobile
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::online.lloydstsb.co.uk
+activity::com.eminencecs.PixieLogo.Splash
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::https://online.lloydstsb.co.uk/personal/logon/login.jsp?WT.ac%3DhpIBlogon
+intent::android.intent.category.LAUNCHER
+activity::.Splash

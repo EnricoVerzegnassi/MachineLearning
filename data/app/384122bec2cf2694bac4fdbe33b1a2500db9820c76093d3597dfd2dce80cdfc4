@@ -1,0 +1,17 @@
+activity::.KnitDesign
+feature::android.hardware.touchscreen
+activity::com.jschroeder.lknitter.KnitDesign
+activity::com.jschroeder.lknitter.PatternList
+provider::com.jschroeder.lknitter.knitpatternprovider
+intent::android.intent.action.PICK
+intent::android.intent.action.MAIN
+call::getSystemService
+intent::android.intent.action.EDIT
+intent::android.intent.category.DEFAULT
+intent::android.intent.action.INSERT
+intent::android.intent.category.LAUNCHER
+activity::com.jschroeder.lknitter.KnitHelper
+url::http://vidasandroid.wordpress.com
+url::vidasandroid.wordpress.com
+intent::android.intent.action.VIEW
+url::http://vidasandroid.wordpress.com/littleknitter/

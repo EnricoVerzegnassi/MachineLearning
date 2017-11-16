@@ -1,0 +1,11 @@
+api_call::android/app/AlarmManager;->setTimeZone
+feature::android.hardware.touchscreen
+permission::android.permission.SET_TIME_ZONE
+api_call::android/app/AlarmManager;->setTime
+intent::android.intent.action.MAIN
+activity::.WorldClock
+real_permission::android.permission.SET_TIME
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+real_permission::android.permission.SET_TIME_ZONE
+call::getSystemService

@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+service_receiver::MaskProviderURIBroadcastReceiver
+intent::android.intent.action.MAIN
+activity::.MainActivity
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+intent::com.dreamerbros.themask.intent.GET_PROVIDER

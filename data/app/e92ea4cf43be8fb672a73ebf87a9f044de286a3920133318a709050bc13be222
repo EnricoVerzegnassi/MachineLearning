@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+api_call::java/lang/Runtime;->exec
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::Read/Write External Storage
+call::Execution of external commands
+activity::.PilotxController
+call::printStackTrace
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://mobile.axeemjacks.com/roster
+activity::Axe Em Jacks
+url::http://mobile.axeemjacks.com
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.Main
+url::http://mobile.axeemjacks.com/schedule
+permission::android.permission.INTERNET
+url::http://mobile.axeemjacks.com/about
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::mobile.axeemjacks.com
+url::http://mobile.axeemjacks.com/stats

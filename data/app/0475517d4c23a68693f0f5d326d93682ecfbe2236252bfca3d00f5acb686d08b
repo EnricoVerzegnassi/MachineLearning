@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+url::pagead2.googlesyndication.com
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::org/apache/http/impl/client/DefaultHttpClient
+activity::.UnitConverter
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://www.webservicex.com/CurrencyConvertor.asmx/ConversionRate?FromCurrency%3D
+url::www.webservicex.com
+url::http://pagead2.googlesyndication.com/pagead/afma_load_ads.js
+call::getPackageInfo
+call::getSystemService
+api_call::android/content/Context;->startActivity
+activity::.ConversionList
+intent::android.intent.category.LAUNCHER

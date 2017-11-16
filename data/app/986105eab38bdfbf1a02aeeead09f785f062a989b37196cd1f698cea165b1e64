@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+intent::android.intent.category.HOME
+activity::.CreateNote
+intent::android.intent.category.DEFAULT
+activity::Note Reminder
+real_permission::android.permission.READ_CONTACTS
+intent::android.intent.action.BOOT_COMPLETED
+activity::UpdateAlarm
+api_call::android/content/ContentResolver;->query
+activity::Alarm
+intent::android.intent.action.PACKAGE_REPLACED
+activity::UpdateNote
+activity::Choose Icon
+call::getSystemService
+permission::android.permission.VIBRATE
+service_receiver::MyService
+service_receiver::AlarmReceiver
+activity::CreateNote
+service_receiver::MyStartupIntentReceiver
+activity::SoundAlarm
+activity::Alarm2
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+real_permission::android.permission.VIBRATE
+intent::android.intent.action.SEND
+intent::android.intent.category.LAUNCHER
+api_call::android/content/Context;->startActivity

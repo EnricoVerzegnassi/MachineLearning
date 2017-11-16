@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+activity::.TallyCounter
+intent::android.intent.action.MAIN
+activity::TallyCounter
+intent::android.intent.category.LAUNCHER
+call::getSystemService

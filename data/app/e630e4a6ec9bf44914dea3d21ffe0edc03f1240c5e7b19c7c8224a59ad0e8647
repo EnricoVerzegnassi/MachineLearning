@@ -1,0 +1,12 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::i53.tinypic.com
+permission::android.permission.INTERNET
+url::tinyurl.com
+intent::android.intent.category.LAUNCHER
+url::http://i53.tinypic.com/k3pqnn.png
+real_permission::android.permission.INTERNET
+url::http://tinyurl.com/amazingmobiletvelite
+activity::.Activity1

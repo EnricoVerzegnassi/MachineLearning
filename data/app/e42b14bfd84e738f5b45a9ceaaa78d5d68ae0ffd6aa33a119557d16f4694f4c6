@@ -1,0 +1,19 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.action.MAIN
+url::http://future.dudibo.com/
+url::http://future.dudibo.com
+activity::.FuturePhotoMain
+permission::android.permission.INTERNET
+url::http://future.dudibo.com/ximages/
+url::http://future.dudibo.com/android.php?name%3D
+url::www.dudibo.com
+api_call::java/net/HttpURLConnection
+intent::android.intent.category.LAUNCHER
+url::http://www.dudibo.com/pad/old/index.php?from%3DAndroidClient
+real_permission::android.permission.INTERNET
+url::http://future.dudibo.com/androidComment.php?name%3D
+url::future.dudibo.com
+url::blog.dudibo.com
+url::http://blog.dudibo.com

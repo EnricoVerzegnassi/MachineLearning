@@ -8,8 +8,8 @@ from sklearn import svm
 from AppInfoExtraction import AppInfoExtraction
 
 from sklearn.svm import SVC
-#path_base="/home/verz/Documenti/Studio/Università Sapienza/Corsi/3° Semestre/Machine Learning/HW/Code/data"
-path_base="/home/verz/Documenti/Studio/Università Sapienza/Corsi/3° Semestre/Machine Learning/HW/drebin/drebin"
+path_base="/home/verz/Documenti/Studio/Università Sapienza/Corsi/3° Semestre/Machine Learning/HW/Code/data"
+#path_base="/home/verz/Documenti/Studio/Università Sapienza/Corsi/3° Semestre/Machine Learning/HW/drebin/drebin"
 
 reducedMap={}
 
@@ -71,7 +71,14 @@ for i in range(len(y_test)):
 
         if(predictedSVM[i]==1):
             SVM_FalsePositive +=1
-
+print("")
+print("")
+print("Folder: ",path_base+'/app/')
+print("Apps in the TRAINING phase: ",len(X_train))
+print("Malware analized in TRAINING phase: ",numpy.count_nonzero(y_train==1))
+print("Apps in the TEST phase: ",len(X_test))
+print("Malware analized in TEST phase: ",numpy.count_nonzero(y_test==1))
+print("-------------------------------------------------------------------------------")
 print ("Accuracy SVM Score: ",str(SVM_correct / Real_Malware.__float__()*100), '%')
 print ("False Positive: ",SVM_FalsePositive,"False negative: ",SVM_FalseNegative)
 print ("Accuracy Bayes Score: ",NB_correct / Real_Malware.__float__()*100, '%')

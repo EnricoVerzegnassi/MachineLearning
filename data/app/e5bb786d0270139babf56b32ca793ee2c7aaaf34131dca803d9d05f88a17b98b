@@ -1,0 +1,127 @@
+url::http://market.android.com/details?id%3D
+url::peel.com
+call::getDeviceId
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+url::http://www.peel.com/policies/privacy.php\%27>here</a>
+url::http://schemas.xmlsoap.org/soap/envelope/\
+real_permission::android.permission.ACCESS_FINE_LOCATION
+url::http://peelapp.zelfy.com/users/adduser
+call::getPackageInfo
+call::HttpPost
+url::http://www.cs.caltech.edu/
+url::http://twitter4j.org/en/twitter4j-
+url::http://data.flurry.com/aap.do
+call::getSystemService
+service_receiver::com.peel.android.receiver.OnAlarmReceiver
+url::peelapp.zelfy.com
+url::www.cs.caltech.edu
+url::http://twitter.com/oauth/authenticate
+url::stream.twitter.com
+intent::android.intent.action.VIEW
+permission::android.permission.WAKE_LOCK
+url::spreadsheets.google.com
+url::insightsprod.zelfy.com
+activity::Facebook
+url::http://peelapp.zelfy.com/outbreak/api/%s
+url::https://m.facebook.com/dialog/
+api_call::java/net/HttpURLConnection
+service_receiver::com.peel.android.service.TopPicksDownloadService
+permission::android.permission.INTERNET
+url::http://peelapp.zelfy.com/epg/schedules/schedulebychannel/%s?providerid%3D%s
+intent::android.intent.action.TIMEZONE_CHANGED
+activity::com.peel.android.ui.ReminderSettings
+url::http://insightsprod.zelfy.com/insights/rlog
+activity::Feedback
+activity::Genre Settings
+activity::com.peel.android.ui.setup.EasySetup
+activity::TwitterAccess
+activity::Channel Setting
+url::http://peel.com/dl\
+url::http://twitter.com/oauth/access_token
+url::api.facebook.com
+activity::Reminder Dialog
+activity::com.peel.android.teststub.TopPicks
+activity::com.peel.android.ui.PeelSearch
+activity::Settings
+api_call::android/os/PowerManager$WakeLock;->acquire
+intent::com.peel.android.intent.action.APP_UPGRADED_INTENT
+api_call::android/content/Context;->startService
+url::http://help.peel.com/tickets.xml
+url::help.peel.com
+url::api.twitter.com
+url::http://ad.flurry.com/getAndroidApp.do
+activity::Set Reminder
+url::developers.facebook.com
+activity::com.peel.android.teststub.TVPrograms
+activity::.Home
+intent::android.intent.category.LAUNCHER
+url::http://twitter.com/oauth/authorize
+url::http://ad.flurry.com/getCanvas.do
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+url::ad.flurry.com
+url::https://data.flurry.com/aap.do
+url::schemas.xmlsoap.org
+url::twitter.com
+api_call::android/telephony/TelephonyManager;->getDeviceId
+activity::TwitterData
+url::search.twitter.com
+url::http://staging.zelfy.com
+activity::Personalize Genres
+real_permission::android.permission.READ_PHONE_STATE
+activity::Gallery
+activity::TwitterWebView
+url::http://help.peel.com
+url::http://spreadsheets.google.com/formResponse?formkey%3D
+activity::Favorite and Cut Programs
+url::http://developers.facebook.com/docs/reference/rest/
+permission::android.permission.READ_PHONE_STATE
+intent::android.intent.action.TIME_SET
+activity::Peel Base
+activity::com.peel.android.teststub.Search
+url::twitter4j.org
+activity::Settings - Basic Info
+service_receiver::com.peel.android.receiver.OnBootReceiver
+intent::android.intent.category.BROWSABLE
+api_call::android/app/NotificationManager;->notify
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::www.peel.com
+permission::android.permission.ACCESS_NETWORK_STATE
+url::http://schemas.xmlsoap.org/soap/encoding/\
+url::http://twitter.com/oauth/request_token
+feature::android.hardware.screen.portrait
+url::http://peelapp.zelfy.com
+activity::Twitter
+url::peel.com\
+url::http://twitter4j.org/
+url::m.facebook.com
+feature::android.hardware.touchscreen
+activity::Resolution & Language Settings
+call::printStackTrace
+url::https://api.facebook.com/restserver.php
+url::http://stream.twitter.com/1/
+intent::android.intent.category.DEFAULT
+url::graph.facebook.com
+intent::android.intent.action.BOOT_COMPLETED
+url::http://peelapp.zelfy.com/epg/schedules/channellineups/%s
+real_permission::android.permission.WAKE_LOCK
+service_receiver::com.peel.android.receiver.TimeZoneChangedReceiver
+url::market.android.com
+url::staging.zelfy.com
+real_permission::android.permission.VIBRATE
+real_permission::android.permission.INTERNET
+url::http://insightsprod.zelfy.com/insights/settings
+activity::com.peel.android.Home
+call::Obfuscation(Base64)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+url::data.flurry.com
+url::http://api.twitter.com/1/
+url::http://search.twitter.com/
+activity::com.peel.android.ui.ReminderDialog
+intent::android.intent.action.MAIN
+activity::Personalize
+activity::Schedule list
+activity::Remineder Dialog
+api_call::android/location/LocationManager;->getBestProvider
+url::http://peel.com\
+url::https://graph.facebook.com/
+activity::Pick Correct Lineup

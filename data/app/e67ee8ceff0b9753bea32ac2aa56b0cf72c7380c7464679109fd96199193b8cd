@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.Prefs
+activity::.TipResult
+intent::android.intent.category.LAUNCHER
+activity::.TipCal
+call::getSystemService
+activity::None

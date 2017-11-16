@@ -1,0 +1,15 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+activity::Terms Of Service
+activity::Please select a file to load from...
+intent::android.intent.action.MAIN
+activity::Help
+api_call::android/content/Context;->startActivity
+url::http://ktware.net/android/tos
+feature::android.hardware.screen.portrait
+url::ktware.net
+activity::.LightBrightr
+intent::android.intent.category.LAUNCHER
+call::getSystemService
+activity::Save Your Creation
+activity::Choose a file name

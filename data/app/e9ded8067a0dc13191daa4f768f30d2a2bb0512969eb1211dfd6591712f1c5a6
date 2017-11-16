@@ -1,0 +1,13 @@
+activity::.Skills
+feature::android.hardware.touchscreen
+feature::android.hardware.screen.portrait
+intent::android.intent.action.MAIN
+activity::.AboutApp
+activity::.MainScreen
+activity::.DescUnit
+activity::.MainMenu
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+intent::android.intent.category.SC2_DB
+activity::.DescBuilding
+activity::.TabUnitsBuildings

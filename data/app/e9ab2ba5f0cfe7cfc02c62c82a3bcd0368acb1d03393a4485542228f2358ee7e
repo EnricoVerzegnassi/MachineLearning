@@ -1,0 +1,8 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.REBOOT
+api_call::android/content/Context;->startActivity
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.HomeActivity

@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+url::http://wormhelmet.devpsi.com/_ws2/androidsplash.png
+url::m.pointstreak.com
+intent::android.intent.action.MAIN
+activity::.Pointstreak
+url::http://wormhelmet.devpsi.com/_ws2/androidsplash-land.png
+url::wormhelmet.devpsi.com
+permission::android.permission.INTERNET
+url::http://m.pointstreak.com/androidappv2
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET

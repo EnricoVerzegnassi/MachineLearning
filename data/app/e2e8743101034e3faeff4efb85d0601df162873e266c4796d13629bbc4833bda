@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.AppEntry
+feature::android.hardware.camera.autofocus
+feature::android.hardware.sensor.accelerometer
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::RIDGID Digital Level
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WAKE_LOCK
+permission::android.permission.CAMERA
+call::getPackageInfo
+feature::android.hardware.camera

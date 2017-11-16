@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+intent::android.intent.action.MAIN
+activity::.WorldScores
+api_call::android/media/MediaPlayer;->start
+activity::.Play
+permission::android.permission.INTERNET
+activity::.Settings
+url::http://city-stream.com/english/
+activity::.Home
+activity::.MyScores
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::http://city-stream.com/english/score?nickname%3D
+url::city-stream.com
+real_permission::android.permission.WAKE_LOCK

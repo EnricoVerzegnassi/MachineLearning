@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.CAMERA
+intent::android.intent.action.MAIN
+api_call::android/hardware/Camera;->open
+permission::android.permission.CAMERA
+feature::android.hardware.camera
+activity::.SearchLight
+intent::android.intent.category.LAUNCHER
+feature::android.hardware.camera.flash

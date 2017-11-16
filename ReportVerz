@@ -1,0 +1,23 @@
+16/11 All apps
+--------------------------------------------------------------------------
+/usr/bin/python3.6 "/home/verz/Documenti/Studio/Università Sapienza/Corsi/3° Semestre/Machine Learning/HW/Code/Main.py"
+Real Value
+[0 0 0 ..., 0 0 0]
+SVM value
+[0 0 0 ..., 0 0 0]
+My Bayes-prediction
+[0 0 0 ..., 0 0 0]
+Accuracy SVM Score:  90.26258205689278 %
+False Positive:  68 False negative:  178
+Accuracy Bayes Score:  85.17505470459518 %
+False Positive:  2167 False negative:  271
+
+
+16/11, Hashing feature
+------------------------------------------------------------------------------------
+DataSet analized:  /home/verz/Documenti/Studio/Università Sapienza/Corsi/3° Semestre/Machine Learning/HW/Code/data/app
+Malware analized in training fase:  36
+Accuracy SVM Score:  100.0 %
+False Positive:  1 False negative:  0
+Accuracy Bayes Score:  68.75 %
+False Positive:  10 False negative:  5

@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://www.topixoft.com/top_letters/api.php?room%3D1&move_letter%3D1&letter_id%3D
+intent::android.intent.action.MAIN
+url::http://www.topixoft.com/top_letters/api.php
+url::www.topixoft.com
+activity::.TopLetters
+permission::android.permission.INTERNET
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+api_call::android/content/ContentResolver;->openOutputStream
+real_permission::android.permission.READ_CONTACTS
+real_permission::android.permission.INTERNET
+api_call::java/net/URL;->openConnection
+url::http://www.topixoft.com/top_letters/api.php?room%3D1

@@ -1,0 +1,17 @@
+url::http://mzoo.cn
+activity::.FairyTaleMIDlet
+url::http://mzoo.cn\u4e0b\u8f7d\uff01
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+url::mzoo.cn
+api_call::android/content/Context;->startActivity
+call::printStackTrace
+url::http://www.netmite.com/android/andme_signed.apk
+url::mz00.cn
+intent::android.intent.category.LAUNCHER
+url::http://www.netmite.com/android/srv/2.0/upload/MXW2_MINISOYO_N73.jar
+call::getPackageInfo
+url::http://mz00.cn
+url::mzoo.cn\u4e0b\u8f7d\uff01
+url::http://mzoo.cn/zj.aspx?user%3D
+url::www.netmite.com

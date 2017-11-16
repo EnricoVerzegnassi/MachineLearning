@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+activity::.CalltrackPreferenceActivity
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+permission::android.permission.READ_PHONE_STATE
+intent::android.intent.action.PHONE_STATE
+permission::android.permission.WRITE_CALENDAR
+service_receiver::CalltrackReceiver
+intent::android.intent.category.LAUNCHER
+permission::android.permission.READ_CALENDAR
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+call::getSystemService

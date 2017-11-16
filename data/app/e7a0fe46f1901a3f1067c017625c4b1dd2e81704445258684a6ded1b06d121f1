@@ -1,0 +1,14 @@
+url::http://mobile.orangeupdate.com/about
+feature::android.hardware.touchscreen
+url::http://mobile.orangeupdate.com/stats
+url::http://mobile.orangeupdate.com/roster
+intent::android.intent.action.MAIN
+url::http://mobile.orangeupdate.com/schedule
+activity::.Main
+permission::android.permission.INTERNET
+activity::Orange Update
+url::http://mobile.orangeupdate.com
+url::mobile.orangeupdate.com
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET

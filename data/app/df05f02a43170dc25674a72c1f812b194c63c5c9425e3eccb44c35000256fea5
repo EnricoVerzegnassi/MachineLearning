@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::Read/Write External Storage
+feature::android.software.live_wallpaper
+url::http://schemas.android.com/apk/res/android
+url::schemas.android.com

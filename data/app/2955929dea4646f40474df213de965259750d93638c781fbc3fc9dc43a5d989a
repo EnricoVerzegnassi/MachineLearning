@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+activity::.Editor
+call::printStackTrace
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+activity::.FileCommander
+api_call::java/net/ServerSocket
+call::getPackageInfo
+intent::android.intent.action.MAIN
+activity::.Prefs
+permission::android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+api_call::java/lang/Runtime;->exec
+call::getSystemService
+intent::android.intent.action.GET_CONTENT
+intent::android.intent.action.EDIT
+activity::.ServerForm
+call::Execution of external commands
+permission::android.permission.ACCESS_WIFI_STATE
+call::Read/Write External Storage
+intent::android.intent.category.OPENABLE
+intent::android.intent.action.VIEW
+intent::android.intent.action.PICK
+feature::android.hardware.wifi
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.READ_LOGS
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

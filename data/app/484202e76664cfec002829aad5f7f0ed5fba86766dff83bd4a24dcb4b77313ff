@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::.DoYouKnowActivity
+intent::android.intent.action.MAIN
+url::m.cexams.com
+url::http://m.cexams.com/dyk/
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET

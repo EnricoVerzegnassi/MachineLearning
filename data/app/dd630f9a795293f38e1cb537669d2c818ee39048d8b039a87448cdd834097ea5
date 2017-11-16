@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_FINE_LOCATION
+call::printStackTrace
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+activity::.Splash
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+call::HttpPost
+feature::android.hardware.location.gps
+url::http://109.74.3.45/mobelriket/hash_tree
+feature::android.hardware.location
+url::109.74.3.45
+intent::android.intent.category.LAUNCHER
+url::http://109.74.3.45/?feed%3Drss2
+url::http://109.74.3.45/statistics_service.php
+url::http://109.74.3.45/mobelriket
+api_call::java/net/URL;->openConnection
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.screen.portrait
+url::http://109.74.3.45/mobelriket/hash_tree_root

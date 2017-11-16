@@ -1,0 +1,25 @@
+activity::.calendar.CalendarActivity
+feature::android.hardware.touchscreen
+activity::.Total_daily
+activity::.calculator.CalculatorActivity
+api_call::java/net/HttpURLConnection
+url::chart.apis.google.com
+api_call::android/os/Vibrator;->vibrate
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+real_permission::android.permission.INTERNET
+url::http://chart.apis.google.com/chart?chf%3Da,s,000000&chs%3D
+real_permission::android.permission.VIBRATE
+call::getSystemService
+permission::android.permission.VIBRATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::.category.CategoryAdd
+feature::android.hardware.screen.portrait
+activity::.category.Category1
+activity::.category.Category2
+intent::android.intent.category.LAUNCHER
+url::http://chart.apis.google.com/chart?chxl%3D1:

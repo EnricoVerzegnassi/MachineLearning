@@ -1,0 +1,12 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+url::blog.orzlabs.org
+api_call::android/os/Vibrator;->cancel
+intent::android.intent.action.MAIN
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+call::getPackageInfo
+url::http://blog.orzlabs.org/search/label/Simple%20Massager
+call::getSystemService
+activity::.Massage
+service_receiver::MassageService

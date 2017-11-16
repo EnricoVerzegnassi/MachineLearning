@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+activity::.GameMain
+intent::android.intent.action.MAIN
+activity::.StageClear
+api_call::android/media/MediaPlayer;->start
+activity::.Stage_Start
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+activity::.GameOver
+real_permission::android.permission.WAKE_LOCK

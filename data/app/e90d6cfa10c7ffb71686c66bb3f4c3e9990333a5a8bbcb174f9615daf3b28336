@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+activity::.dnd1
+url::sites.google.com
+intent::android.intent.action.MAIN
+url::http://sites.google.com/site/juggernautsoftware
+intent::android.intent.category.LAUNCHER

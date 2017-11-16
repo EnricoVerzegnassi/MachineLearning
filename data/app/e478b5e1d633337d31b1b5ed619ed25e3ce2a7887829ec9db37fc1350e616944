@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+activity::Settings
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::Launch
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.Launch
+api_call::android/app/Activity;->startActivity
+api_call::java/net/Socket
+call::Obfuscation(Base64)
+call::getSystemService

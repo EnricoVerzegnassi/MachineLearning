@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.GameActivity
+activity::.activity.SetupPlayersActivity
+activity::.activity.GameActivity
+activity::.activity.SetupGameActivity
+activity::.activity.AddEndActivity
+activity::.activity.EditPlayerActivity
+intent::android.intent.category.LAUNCHER
+api_call::android/app/Activity;->startActivity
+call::getSystemService

@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+url::server5.mp3quran.net
+activity::.activities.SuraList
+api_call::java/net/URL;->openConnection
+url::www.everyayah.com
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/media/MediaPlayer;->start
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::guidancesoftware.info
+activity::.SuraList
+intent::android.intent.category.LAUNCHER
+url::http://www.everyayah.com/data/Ghamadi_40kbps/
+real_permission::android.permission.WAKE_LOCK
+url::http://server5.mp3quran.net/s_gmd/
+url::http://guidancesoftware.info/text1.xml

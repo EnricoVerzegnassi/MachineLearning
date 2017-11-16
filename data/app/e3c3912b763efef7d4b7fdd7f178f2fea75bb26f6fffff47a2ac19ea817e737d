@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+service_receiver::Dark Analog Clock Widget
+intent::android.intent.action.MAIN
+activity::com.Ardchoille.Apps.SenseNClockWidget.Info
+provider::android.appwidget.provider
+intent::android.intent.category.INFO

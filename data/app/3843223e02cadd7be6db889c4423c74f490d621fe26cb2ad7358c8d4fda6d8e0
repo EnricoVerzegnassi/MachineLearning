@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+api_call::android/content/Context;->startService
+provider::android.appwidget.provider
+service_receiver::.widget.MinimalNewsWidgetProvider
+api_call::java/net/URL;->openConnection
+service_receiver::UpdaterService

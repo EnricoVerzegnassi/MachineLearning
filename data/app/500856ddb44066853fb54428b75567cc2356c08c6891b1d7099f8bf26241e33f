@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+url::http://m.kmbase.medric.or.kr/
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::m.kmbase.medric.or.kr
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::com.ex.KMBase.KMBase
+activity::.KMBase

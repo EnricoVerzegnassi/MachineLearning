@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+provider::android.provider.Telephony.SMS_RECEIVED
+api_call::android/content/Context;->startActivity
+permission::android.permission.RECEIVE_SMS
+service_receiver::.receiver.SmsReceiver
+permission::android.permission.READ_SMS
+feature::android.hardware.telephony
+permission::android.permission.WRITE_SMS
+permission::android.permission.WAKE_LOCK
+activity::Booter
+permission::android.permission.READ_CONTACTS

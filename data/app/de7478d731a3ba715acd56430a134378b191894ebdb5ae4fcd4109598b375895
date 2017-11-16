@@ -1,0 +1,36 @@
+feature::android.hardware.touchscreen
+url::app.pontiflex.com
+activity::com.silkenmermaid.portablescanner.NewScan
+activity::com.silkenmermaid.portablescanner.SavedPdfs
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+activity::com.silkenmermaid.portablescanner.SavedScanSessions
+url::https://app.pontiflex.com/bpost
+activity::com.silkenmermaid.portablescanner.PreviewSavedPdf
+real_permission::android.permission.CAMERA
+api_call::org/apache/http/impl/client/DefaultHttpClient
+activity::Save As:
+feature::android.hardware.camera.autofocus
+api_call::android/content/Context;->startActivity
+activity::com.silkenmermaid.portablescanner.Help
+url::www.pontiflex.com
+call::Read/Write External Storage
+real_permission::android.permission.ACCESS_NETWORK_STATE
+activity::com.silkenmermaid.portablescanner.Preview
+permission::android.permission.CAMERA
+activity::com.silkenmermaid.portablescanner.Preferences
+call::Cipher(AES)
+url::stats.pflexads.com
+api_call::android/hardware/Camera;->open
+feature::android.hardware.screen.landscape
+url::http://www.pontiflex.com/privacy_policy.jsf
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+feature::android.hardware.camera
+real_permission::android.permission.INTERNET
+activity::.Home
+url::http://stats.pflexads.com
+intent::android.intent.category.LAUNCHER
+call::getSystemService

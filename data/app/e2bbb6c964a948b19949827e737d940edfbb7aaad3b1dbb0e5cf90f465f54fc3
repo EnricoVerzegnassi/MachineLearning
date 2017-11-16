@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+url::features.opensuse.org
+intent::android.intent.action.MAIN
+activity::.OpenfateWrapperActivity
+url::https://features.opensuse.org/query?force_view%3Dmobile
+permission::android.permission.INTERNET
+url::https://features.opensuse.org/?force_view%3Dmobile
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET

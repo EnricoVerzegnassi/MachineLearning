@@ -1,0 +1,48 @@
+feature::android.hardware.touchscreen
+activity::Advanced
+activity::CM7 Themes
+activity::Sim Settings
+activity::Device Info
+url::http://forum.xda-developers.com/showthread.php?t%3D1056292
+permission::android.permission.READ_PHONE_STATE
+url::forum.xda-developers.com
+permission::android.permission.INTERNET
+call::Execution of external commands
+activity::Logcat
+activity::Wipe
+url::market.android.com
+permission::android.permission.ACCESS_WIFI_STATE
+activity::Mount
+call::printStackTrace
+activity::.splashscreen
+url::lukemovement.wordpress.com
+activity::Set-APN
+url::2.3.6.1
+activity::Sdcard Read Speed
+call::getSimCountryIso
+call::getSystemService
+activity::Mount USB
+permission::android.permission.VIBRATE
+api_call::android/os/Vibrator;->vibrate
+real_permission::android.permission.VIBRATE
+api_call::android/webkit/WebView
+api_call::java/lang/Runtime;->exec
+activity::Mount System
+activity::Reboot
+activity::Contact Me
+activity::About Root
+activity::Other
+url::https://market.android.com/search?q%3DCM7+Themes&so%3D1&c%3Dapps
+activity::Restore System Apps
+feature::android.hardware.wifi
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.READ_LOGS
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.READ_LOGS
+real_permission::android.permission.INTERNET
+url::http://lukemovement.wordpress.com/root-toolbox/
+intent::android.intent.category.LAUNCHER
+activity::Remove System Apps
+activity::Restore APNs
+call::system/bin/su

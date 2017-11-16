@@ -1,0 +1,13 @@
+activity::.MegaMillion
+api_call::java/net/URL;->openStream
+url::http://www.colorado.gov/coloradoLotteryFeeds/Megamillions.xml
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::.PowerBall
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+url::www.colorado.gov
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+activity::.LottoUsa
+url::http://www.colorado.gov/coloradoLotteryFeeds/Powerball.xml

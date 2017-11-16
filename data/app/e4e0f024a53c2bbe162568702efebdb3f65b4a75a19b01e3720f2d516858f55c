@@ -1,0 +1,11 @@
+url::zxing.googlecode.com
+service_receiver::com.sonyericsson.extras.liveview.plugins.PluginReceiver
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startActivity
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+activity::com.sonyericsson.extras.liveview.plugins.PluginPreferences
+url::https://zxing.googlecode.com/files/BarcodeScanner3.1.apk
+service_receiver::LVGoogleAuth service
+service_receiver::com.sonyericsson.extras.liveview.plugins.lvgoogleauth.LVAuthenticatorService

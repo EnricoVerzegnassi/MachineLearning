@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.AddSemester_Activity
+activity::.Prefs_Activity
+feature::android.hardware.screen.portrait
+activity::.GpaPro
+activity::.AddLecture_Activity
+intent::android.intent.category.LAUNCHER
+call::getSystemService
+activity::.Lectures_Activity

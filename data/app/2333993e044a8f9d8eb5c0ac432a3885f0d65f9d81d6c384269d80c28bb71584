@@ -1,0 +1,24 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+api_call::android/os/Vibrator;->vibrate
+permission::android.permission.INTERNET
+api_call::android/app/Activity;->startActivity
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+real_permission::android.permission.INTERNET
+real_permission::android.permission.VIBRATE
+call::getSystemService
+permission::android.permission.VIBRATE
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+real_permission::android.permission.ACCESS_NETWORK_STATE
+activity::.MosaicPlusMobileFree
+call::Read/Write External Storage
+api_call::android/webkit/WebView
+api_call::android/content/ContentResolver;->openInputStream
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+feature::android.hardware.screen.portrait
+url::images.ad-maker.info
+intent::android.intent.category.LAUNCHER
+url::http://images.ad-maker.info/apps/sxk8oloruo4g.html

@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+url::www.netmite.com
+intent::android.intent.action.MAIN
+url::http://10.0.0.172:80
+api_call::android/content/Context;->startActivity
+activity::.CopRush
+url::http://www.netmite.com/android/andme_signed.apk
+url::http://www.netmite.com/android/srv/2.0/upload/HuoXian_N73.jad
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+url::10.0.0.172

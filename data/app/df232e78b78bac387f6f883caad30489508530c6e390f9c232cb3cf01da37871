@@ -1,0 +1,6 @@
+url::http://support.insurancewebsitebuilder.com/mDetect/?App%3DAndroid
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::support.insurancewebsitebuilder.com
+activity::.MyLocalAgent
+intent::android.intent.category.LAUNCHER

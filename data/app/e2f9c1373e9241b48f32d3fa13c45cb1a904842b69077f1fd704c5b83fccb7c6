@@ -1,0 +1,13 @@
+activity::.livetvmain2
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+url::http://internetmultimediaonline.org/inc/livetvchannels.xml
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.livetvmain
+activity::.splashActivity
+url::internetmultimediaonline.org
+real_permission::android.permission.WAKE_LOCK

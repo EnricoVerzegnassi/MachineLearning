@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+url::http://www.passionbasket.fr
+intent::android.intent.action.MAIN
+activity::.main
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::www.passionbasket.fr

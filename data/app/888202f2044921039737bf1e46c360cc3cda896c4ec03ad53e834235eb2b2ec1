@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+url::market.android.com
+intent::android.intent.action.MAIN
+url::http://market.android.com/search?q%3Dpname:it.mp.jumping
+activity::.Main
+activity::TopScoreDisplay
+feature::android.hardware.screen.portrait
+activity::Instructions
+intent::android.intent.category.LAUNCHER
+call::getSystemService
+activity::DialogoAcquisto
+activity::it.mp.demo.jumping.Main

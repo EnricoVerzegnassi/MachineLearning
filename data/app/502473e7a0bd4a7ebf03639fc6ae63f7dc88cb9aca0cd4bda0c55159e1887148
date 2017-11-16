@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+service_receiver::.WidgetUpdateService
+intent::android.intent.action.MAIN
+activity::.WidgetConfigurationNormal
+activity::.MainActivity
+intent::android.intent.category.LAUNCHER
+provider::android.appwidget.provider
+call::getSystemService
+activity::.WidgetConfigurationSmall

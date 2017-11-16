@@ -1,0 +1,14 @@
+url::http://mobile.troybeat.com/schedule
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.Main
+url::http://mobile.troybeat.com/roster
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::mobile.troybeat.com
+url::http://mobile.troybeat.com/about
+intent::android.intent.category.LAUNCHER
+url::http://mobile.troybeat.com
+activity::Troy Beat
+url::http://mobile.troybeat.com/stats

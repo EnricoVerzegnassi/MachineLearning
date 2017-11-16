@@ -1,0 +1,5 @@
+activity::.GameScreen
+feature::android.hardware.touchscreen
+activity::GameScreen
+intent::android.intent.action.MAIN
+intent::android.intent.category.LAUNCHER

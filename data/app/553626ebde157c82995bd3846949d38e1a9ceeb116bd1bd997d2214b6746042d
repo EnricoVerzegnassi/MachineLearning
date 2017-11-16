@@ -1,0 +1,53 @@
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_FINE_LOCATION
+call::getDeviceId
+call::printStackTrace
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+real_permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.action.SEARCH
+api_call::android/bluetooth/BluetoothDevice;->createRfcommSocketToServiceRecord
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+activity::Diver Memberships
+feature::android.hardware.location.gps
+real_permission::android.permission.READ_PHONE_STATE
+api_call::android/bluetooth/BluetoothAdapter;->cancelDiscovery
+activity::.Home
+activity::Dives List
+api_call::android/content/Context;->startActivity
+feature::android.hardware.location
+activity::Dives Map
+intent::android.intent.action.INSERT
+call::getSystemService
+call::Read/Write External Storage
+activity::Dive Profile
+real_permission::android.permission.BLUETOOTH
+intent::android.intent.action.GET_CONTENT
+activity::Certification Details
+activity::Bluetooth Exchange
+intent::android.intent.action.EDIT
+activity::Diver Details
+activity::Dive Profile Entry
+provider::.provider.DivesProvider
+activity::DiveLog Preferences
+activity::Select Device
+intent::android.intent.action.VIEW
+real_permission::android.permission.BLUETOOTH_ADMIN
+activity::Statistics
+activity::Location Finder
+intent::android.intent.action.PICK
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+provider::com.shuffledbits.divelog.provider.DiveLog
+activity::Membership Details
+api_call::android/location/LocationManager;->getBestProvider
+activity::Diver Certifications
+activity::Search Results
+intent::android.intent.category.LAUNCHER
+api_call::android/content/ContentResolver;->query
+activity::Dive Details
+activity::Dive Markers

@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+feature::android.hardware.wifi
+permission::android.permission.CHANGE_WIFI_STATE
+service_receiver::TetherShortCutWidget$WidgetService
+permission::android.permission.ACCESS_WIFI_STATE
+api_call::android/net/wifi/WifiManager;->setWifiEnabled
+api_call::android/content/Context;->startService
+real_permission::android.permission.ACCESS_WIFI_STATE
+call::setWifiEnabled
+real_permission::android.permission.CHANGE_WIFI_STATE
+provider::android.appwidget.provider
+call::getSystemService
+api_call::android/net/wifi/WifiManager;->isWifiEnabled

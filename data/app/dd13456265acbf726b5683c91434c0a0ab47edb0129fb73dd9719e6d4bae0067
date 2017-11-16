@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+url::http://www.biolegend.com/humanIL.php
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.tabBrowser
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::www.biolegend.com
+real_permission::android.permission.INTERNET
+url::http://www.biolegend.com/mouseIL.php
+url::http://www.biolegend.com
+url::http://www.biolegend.com/AndroidHomeIL.php

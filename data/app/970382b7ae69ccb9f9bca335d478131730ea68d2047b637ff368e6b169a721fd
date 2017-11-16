@@ -1,0 +1,16 @@
+api_call::java/net/HttpURLConnection
+api_call::android/content/ContentResolver;->query
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+call::sendSMS
+call::printStackTrace
+real_permission::android.permission.SEND_SMS
+real_permission::android.permission.ACCESS_NETWORK_STATE
+url::http://www.neodengi.ru\
+url::smsbankomat.ru
+url::http://smsbankomat.ru
+api_call::android/telephony/gsm/SmsManager;->sendTextMessage
+real_permission::android.permission.INTERNET
+real_permission::android.permission.READ_CONTACTS
+call::getSimCountryIso
+url::www.neodengi.ru\
+call::getSystemService

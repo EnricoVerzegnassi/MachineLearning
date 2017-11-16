@@ -1,0 +1,16 @@
+intent::android.net.wifi.SCAN_RESULTS
+feature::android.hardware.touchscreen
+service_receiver::SLWWlanWidget
+real_permission::android.permission.CHANGE_WIFI_STATE
+feature::android.hardware.wifi
+permission::android.permission.ACCESS_WIFI_STATE
+api_call::android/net/wifi/WifiManager;->getScanResults
+api_call::android/net/wifi/WifiManager;->setWifiEnabled
+service_receiver::ScanReceiver
+api_call::android/content/Context;->startService
+service_receiver::SLWWlanService
+real_permission::android.permission.ACCESS_WIFI_STATE
+call::setWifiEnabled
+permission::android.permission.CHANGE_WIFI_STATE
+provider::android.appwidget.provider
+call::getSystemService

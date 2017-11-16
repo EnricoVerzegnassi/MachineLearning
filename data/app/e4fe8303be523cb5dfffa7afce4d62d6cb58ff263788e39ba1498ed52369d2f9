@@ -1,0 +1,23 @@
+url::twitter.com
+activity::disasterAlert.PDC.Hazards.HazardsList
+api_call::org/apache/http/impl/client/DefaultHttpClient
+feature::android.hardware.touchscreen
+url::http://maps.google.com/maps/api/staticmap?center%3D
+permission::android.permission.INTERNET
+intent::android.intent.action.SEARCH
+url::cp.pdc.org
+activity::.DisasterAlert
+url::http://twitter.com/disasteraware
+url::hpxml.pdc.org
+call::printStackTrace
+url::http://www.facebook.com/disasteraware
+activity::disasterAlert.PDC.About
+url::http://hpxml.pdc.org/public.xml
+url::http://cp.pdc.org/x/mobile/
+url::http://maps.google.com/maps/geo?q%3D
+url::www.facebook.com
+activity::Time Zone
+intent::android.intent.action.MAIN
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::maps.google.com

@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+service_receiver::Pricesses Clock8
+service_receiver::Pricesses Clock4
+service_receiver::Pricesses Clock5
+service_receiver::Pricesses Clock6
+service_receiver::Pricesses Clock7
+service_receiver::Pricesses Clock1
+service_receiver::Pricesses Clock2
+service_receiver::Pricesses Clock3
+provider::android.appwidget.provider

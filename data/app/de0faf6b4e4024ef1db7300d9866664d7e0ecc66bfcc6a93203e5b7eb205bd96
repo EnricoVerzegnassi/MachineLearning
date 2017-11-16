@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::.frmOpcoes
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::192.168.10.134
+intent::android.intent.category.LAUNCHER
+call::HttpPost
+url::http://192.168.10.134/webdesenv/android/icol_vmm/

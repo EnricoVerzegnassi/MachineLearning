@@ -1,0 +1,5 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startActivity
+permission::android.permission.READ_CONTACTS
+provider::android.appwidget.provider
+service_receiver::.ContentProviderWidget

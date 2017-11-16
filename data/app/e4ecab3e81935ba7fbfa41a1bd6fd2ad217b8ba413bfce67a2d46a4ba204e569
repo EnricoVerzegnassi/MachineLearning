@@ -1,0 +1,9 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::android/os/Vibrator;->vibrate
+permission::android.permission.BIND_INPUT_METHOD
+intent::android.intent.action.DELETE
+service_receiver::CompassKeyboard
+activity::CompassKeyboardSettings
+real_permission::android.permission.VIBRATE
+call::getSystemService

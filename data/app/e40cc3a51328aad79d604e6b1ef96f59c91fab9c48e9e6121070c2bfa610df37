@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+activity::.TestActivity
+call::getSystemService
+activity::TestActivity
+feature::android.hardware.screen.portrait
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+api_call::android/content/ContentResolver;->query
+real_permission::android.permission.READ_CONTACTS
+activity::SplashActivity
+intent::android.intent.category.DEFAULT
+activity::.SplashActivity
+activity::GraphActivity
+intent::android.intent.action.VIEW
+activity::MyDialog

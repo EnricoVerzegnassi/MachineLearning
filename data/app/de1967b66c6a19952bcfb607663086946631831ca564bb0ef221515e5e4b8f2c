@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.Dungeons
+call::Obfuscation(Base64)
+service_receiver::com.elik.dungeons.BillingService
+service_receiver::com.elik.dungeons.BillingReceiver
+intent::android.intent.category.LAUNCHER
+activity::com.elik.dungeons.Dungeons
+permission::com.android.vending.BILLING
+api_call::android/content/Context;->startService

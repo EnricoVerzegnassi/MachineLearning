@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.INTERNET
+url::astore.amazon.com
+activity::.CellPhonePopularAccessories
+intent::android.intent.category.LAUNCHER
+url::http://astore.amazon.com/popular-accessories-20

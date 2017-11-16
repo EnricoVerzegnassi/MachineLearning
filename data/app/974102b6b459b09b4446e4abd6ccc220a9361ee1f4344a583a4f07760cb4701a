@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+activity::.Rate
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::http://museum.ourflat.fr/
+permission::android.permission.INTERNET
+url::museum.ourflat.fr
+real_permission::android.permission.INTERNET
+url::http://museum.ourflat.fr//map.html
+intent::android.intent.category.LAUNCHER
+activity::.ListeOeuvres
+api_call::android/webkit/WebView
+activity::.Interface
+url::http://museum.ourflat.fr/oeuvre/
+url::http://museum.ourflat.fr/oeuvre/list.json?all

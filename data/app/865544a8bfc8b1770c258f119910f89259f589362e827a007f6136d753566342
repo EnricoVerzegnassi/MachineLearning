@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+url::1402.live.streamtheworld.com
+url::http://1402.live.streamtheworld.com:80/KLYYFMCMP3
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::www.sapocom.com
+api_call::android/media/MediaPlayer;->start
+url::http://www.sapocom.com/AndroidApps/contact.cfm?APP%3DKLYY&interface%3Dandroid
+activity::.mainactivity
+url::http://www.sapocom.com/AndroidApps/banner300x100.cfm?APP%3DKLYY&interface%3Dandroid
+url::http://www.sapocom.com/AndroidApps/info.php?APP%3DKLYY&interface%3Dandroid
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+real_permission::android.permission.WAKE_LOCK

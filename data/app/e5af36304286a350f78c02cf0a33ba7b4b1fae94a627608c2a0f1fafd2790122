@@ -1,0 +1,14 @@
+activity::.SettingActivity
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::java/net/Socket
+activity::.ScheduleInputActivity
+activity::.TodayListActivity
+activity::.RoomActivity
+permission::android.permission.INTERNET
+activity::.TodayDetailActivity
+intent::android.intent.category.LAUNCHER
+activity::.Hummingbird
+real_permission::android.permission.INTERNET
+call::HttpPost
+call::getSystemService

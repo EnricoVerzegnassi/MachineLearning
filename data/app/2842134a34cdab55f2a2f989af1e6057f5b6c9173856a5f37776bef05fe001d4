@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+intent::com.obigo.intent.action.WIDGET_INSTALLED
+api_call::android/content/Context;->sendBroadcast
+intent::com.obigo.intent.action.PACKAGE_ADDED
+activity::.Widget
+activity::com.obigo.widget.Widget
+service_receiver::com.obigo.widget.IntentReceiver

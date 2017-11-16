@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+activity::.SaleKoreaDashboardActivity
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://m.salekorea.co.kr/
+permission::android.permission.INTERNET
+url::http://m.salekorea.co.kr/info_list/list_week_new.html
+real_permission::android.permission.INTERNET
+url::m.salekorea.co.kr
+activity::SaleKorea
+url::http://m.salekorea.co.kr/menu.html
+intent::android.intent.category.LAUNCHER
+url::http://m.salekorea.co.kr/info_list/list_time.html
+url::http://m.salekorea.co.kr
+url::http://m.salekorea.co.kr/info_list/list_day.html
+url::http://m.salekorea.co.kr/info_list/list_week_best.html

@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::com.Ardchoille.Apps.BlackClockWidget.Info
+provider::android.appwidget.provider
+intent::android.intent.category.INFO
+service_receiver::Black Analog Clock

@@ -1,0 +1,34 @@
+feature::android.hardware.touchscreen
+call::getDeviceId
+api_call::android/telephony/TelephonyManager;->getDeviceId
+activity::carmanag
+call::Read/Write External Storage
+api_call::android/os/PowerManager$WakeLock;->acquire
+url::http://www.nxgtrsim.com
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+real_permission::android.permission.INTERNET
+activity::nxmenu
+activity::realdyno
+real_permission::android.permission.WAKE_LOCK
+api_call::android/content/ContentResolver;->query
+api_call::android/app/Activity;->startActivity
+real_permission::android.permission.VIBRATE
+activity::instru
+call::getSystemService
+api_call::android/os/Vibrator;->vibrate
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.SEND_SMS
+api_call::android/telephony/SmsManager;->sendTextMessage
+call::Execution of external commands
+url::www.nxgtrsim.com
+real_permission::android.permission.READ_PHONE_STATE
+api_call::android/webkit/WebView
+call::sendSMS
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+activity::.main
+feature::android.hardware.screen.portrait
+call::readSMS
+intent::android.intent.category.LAUNCHER
+call::getSubscriberId

@@ -1,0 +1,20 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+api_call::android/os/PowerManager$WakeLock;->acquire
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+service_receiver::.MyAlarmService
+api_call::android/content/Context;->startActivity
+call::printStackTrace
+activity::.trialControl.TrialTimeElapsedView
+activity::.filemanager.FileManager
+api_call::android/app/KeyguardManager$KeyguardLock;->disableKeyguard
+real_permission::android.permission.DISABLE_KEYGUARD
+activity::.MainView
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+activity::.SettingsView
+real_permission::android.permission.WAKE_LOCK
+call::getSystemService
+permission::android.permission.DISABLE_KEYGUARD

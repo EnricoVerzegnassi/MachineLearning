@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://www.gastro.org/mobiletools
+url::http://youtu.be/
+url::www.youtube.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::www.gastro.org
+url::http://www.youtube.com/v/%s
+intent::android.intent.category.LAUNCHER
+api_call::android/app/Activity;->startActivity
+activity::.AGAWebActivity
+url::youtu.be

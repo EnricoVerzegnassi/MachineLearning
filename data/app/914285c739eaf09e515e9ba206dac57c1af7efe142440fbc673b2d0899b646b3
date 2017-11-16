@@ -1,0 +1,5 @@
+activity::.Reflex
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.Game
+intent::android.intent.category.LAUNCHER

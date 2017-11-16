@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://mobile.appstateupdate.com/stats
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::App State Update
+activity::.Main
+url::http://mobile.appstateupdate.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://mobile.appstateupdate.com/about
+url::http://mobile.appstateupdate.com/roster
+intent::android.intent.category.LAUNCHER
+url::mobile.appstateupdate.com
+url::http://mobile.appstateupdate.com/schedule

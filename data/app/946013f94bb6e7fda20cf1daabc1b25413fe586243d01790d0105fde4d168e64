@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::kr.pe.jistol.jpiano.menu.VolumnCtrl
+api_call::android/media/MediaPlayer;->start
+activity::kr.pe.jistol.jpiano.menu.About
+intent::android.intent.category.LAUNCHER
+activity::.Executor
+activity::kr.pe.jistol.jpiano.menu.Settings
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

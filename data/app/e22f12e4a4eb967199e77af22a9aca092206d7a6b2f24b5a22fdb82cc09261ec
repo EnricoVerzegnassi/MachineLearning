@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openConnection
+intent::android.intent.action.MAIN
+url::http://www.aar.im/index.php?act%3Dapiadd&t%3Dget&apikey%3Dewf43&url%3D
+url::www.aar.im
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.aarim
+call::getSystemService

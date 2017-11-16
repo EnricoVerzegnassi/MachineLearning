@@ -1,0 +1,21 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+real_permission::android.permission.ACCESS_NETWORK_STATE
+url::plg1.yumenetworks.com
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/content/Context;->startActivity
+activity::.Main
+permission::android.permission.INTERNET
+url::http://plg1.yumenetworks.com/
+feature::android.hardware.screen.portrait
+api_call::android/net/ConnectivityManager;->getAllNetworkInfo
+api_call::android/media/MediaPlayer;->stop
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET
+call::printStackTrace
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

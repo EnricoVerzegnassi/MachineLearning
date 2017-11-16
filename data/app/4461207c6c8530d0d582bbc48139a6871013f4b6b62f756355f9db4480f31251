@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+activity::.Kalah
+intent::android.intent.action.MAIN
+activity::.SetPreferences
+activity::.Rules
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER

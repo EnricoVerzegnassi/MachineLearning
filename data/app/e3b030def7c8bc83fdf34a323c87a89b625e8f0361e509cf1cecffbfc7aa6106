@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+activity::.TicTacToe
+intent::android.intent.action.MAIN
+feature::android.hardware.screen.portrait
+activity::tm.app.ticTacToe.TicTacToePreferences
+intent::android.intent.category.LAUNCHER
+activity::tm.app.ticTacToe.TicTacToeGameActivity

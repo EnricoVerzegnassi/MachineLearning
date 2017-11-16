@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+activity::.DetailPost
+intent::android.intent.action.MAIN
+activity::.WebPost
+url::http://www.experience-developpement.fr/feed/
+activity::.Main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://www.experience-developpement.fr/
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+call::getPackageInfo
+url::www.experience-developpement.fr
+call::printStackTrace

@@ -1,0 +1,6 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+service_receiver::.KickBackService
+real_permission::android.permission.VIBRATE
+call::getSystemService
+api_call::android/os/Vibrator;->cancel

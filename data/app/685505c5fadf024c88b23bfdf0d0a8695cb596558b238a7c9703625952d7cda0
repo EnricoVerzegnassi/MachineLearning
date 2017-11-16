@@ -1,0 +1,18 @@
+service_receiver::.WalletWidgetProvider
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+url::pastebin.com
+url::http://pastebin.com/raw.php?i%3D
+permission::android.permission.INTERNET
+activity::.WalletActivity
+real_permission::android.permission.INTERNET
+call::Read/Write External Storage
+activity::.TransactionsActivity
+intent::android.intent.category.LAUNCHER
+url::http://blockexplorer.com/q/mytransactions/
+url::http://code.google.com/p/bitcoinwallet/wiki/Using
+url::blockexplorer.com
+call::getSystemService
+provider::android.appwidget.provider
+url::code.google.com

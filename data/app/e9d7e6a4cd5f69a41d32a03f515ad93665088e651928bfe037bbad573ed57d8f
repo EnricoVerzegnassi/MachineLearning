@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+activity::.PurchasesList
+intent::android.intent.action.MAIN
+activity::PurchaseEditor
+intent::android.intent.action.PICK
+intent::android.intent.action.GET_CONTENT
+activity::.Prefs
+intent::android.intent.action.EDIT
+activity::PurchasesList
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.INSERT
+provider::org.fuellog.provider.FuelLog
+intent::android.intent.action.VIEW

@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+url::www.google.co.jp
+intent::android.intent.action.MAIN
+url::http://www.google.co.jp/search?hl%3Dja&ie%3Dutf-8&q%3D
+url::www.fooooo.com
+url::ja.wikipedia.org
+url::http://search.yahoo.co.jp/search?p%3D
+url::www.youtube.com
+permission::android.permission.INTERNET
+activity::.shiraberoid
+url::http://www.youtube.com/results?search_query%3D
+intent::android.intent.category.LAUNCHER
+url::http://www.fooooo.com/search.php?q%3D
+intent::android.intent.category.BROWSABLE
+url::search.yahoo.co.jp
+url::http://ja.wikipedia.org/wiki/

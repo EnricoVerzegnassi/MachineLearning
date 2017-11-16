@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+permission::android.permission.INTERNET
+activity::.SearchHome
+url::http://techbot.prashantv.webfactional.com/json/search/
+url::techbot.prashantv.webfactional.com
+real_permission::android.permission.INTERNET
+call::getSystemService
+intent::android.intent.category.LAUNCHER

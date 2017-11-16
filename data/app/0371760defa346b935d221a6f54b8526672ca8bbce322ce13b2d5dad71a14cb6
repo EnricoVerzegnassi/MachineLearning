@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::.SolancoHomeworkHotline
+url::http://www.solanco.k12.pa.us/SwiftMiddleSchool.htm
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::www.solanco.k12.pa.us

@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+api_call::android/os/PowerManager$WakeLock;->acquire
+url::market.android.com
+permission::android.permission.WAKE_LOCK
+service_receiver::bitartist.sakuracal.SakuraCal$UpdateService
+service_receiver::bitartist.sakuracal.Alarm
+intent::android.intent.action.ACTION_SCREEN_ON
+intent::android.intent.category.DEFAULT
+url::http://market.android.com/search?q%3Dpname:bitartist.sakuracalpro
+api_call::android/content/Context;->startService
+provider::android.appwidget.provider
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

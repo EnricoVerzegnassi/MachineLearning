@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.ATrafficCollector
+activity::.OptionsActivity
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.BOOT_COMPLETED
+service_receiver::.ATrafficCollectorService
+service_receiver::.StartupIntentReceiver
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+activity::.StatsActivity

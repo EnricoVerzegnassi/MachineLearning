@@ -1,0 +1,8 @@
+permission::android.permission.SET_WALLPAPER
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+intent::android.intent.category.LAUNCHER
+activity::.MeganDaniels
+api_call::android/app/WallpaperManager;->setBitmap
+activity::MeganDaniels
+real_permission::android.permission.SET_WALLPAPER

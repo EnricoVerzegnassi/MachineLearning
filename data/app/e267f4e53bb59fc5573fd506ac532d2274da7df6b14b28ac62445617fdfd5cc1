@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.MultiSmsSender
+permission::android.permission.SEND_SMS
+permission::android.permission.RECEIVE_SMS
+permission::android.permission.READ_SMS
+service_receiver::.MessageReceiver
+feature::android.hardware.telephony
+permission::android.permission.WRITE_SMS
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+api_call::android/content/ContentResolver;->query

@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::.CJInputUI
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.CJInputAbout
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+call::getSystemService

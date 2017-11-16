@@ -1,0 +1,24 @@
+feature::android.hardware.touchscreen
+activity::.main
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+call::getPackageInfo
+real_permission::android.permission.WAKE_LOCK
+api_call::android/media/MediaPlayer;->start
+permission::android.permission.ACCESS_COARSE_LOCATION
+feature::android.hardware.location
+service_receiver::com.pageworks.nl.jappin.receivers.DataUpdateReceiver
+real_permission::android.permission.VIBRATE
+call::getSystemService
+permission::android.permission.VIBRATE
+intent::com.pageworks.nl.intent.action.TEST
+api_call::android/content/Context;->sendBroadcast
+activity::main
+api_call::java/net/URL;->getContent
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+service_receiver::com.pageworks.nl.jappin.services.UpdateService
+real_permission::android.permission.INTERNET
+feature::android.hardware.location.network
+intent::android.intent.category.LAUNCHER

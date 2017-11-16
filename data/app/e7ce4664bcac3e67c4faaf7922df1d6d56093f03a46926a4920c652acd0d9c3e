@@ -1,0 +1,21 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+service_receiver::EmulatorService
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::getSystemService
+intent::android.intent.action.CREATE_SHORTCUT
+activity::.MainActivity
+activity:::emulator
+activity::.CreateShortcuts
+intent::android.intent.category.DEFAULT
+call::Read/Write External Storage
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+api_call::android/webkit/WebView
+url::androidemu.com
+activity::StateSlotsActivity
+real_permission::android.permission.INTERNET
+url::http://androidemu.com/apk/res/android
+intent::android.intent.action.VIEW
+api_call::android/os/Vibrator;->cancel

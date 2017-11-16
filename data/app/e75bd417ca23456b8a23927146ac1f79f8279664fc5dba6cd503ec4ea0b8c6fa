@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+url::http://204.12.115.187/mobilenet
+url::http://sites.google.com/site/gson/gson-user-guide
+activity::.WebViewActivity
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::204.12.115.187
+call::Obfuscation(Base64)
+call::Cipher(AES)
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::sites.google.com
+activity::WebViewActivity
+call::getSystemService

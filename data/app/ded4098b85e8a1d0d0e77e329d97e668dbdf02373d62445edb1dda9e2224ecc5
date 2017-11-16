@@ -1,0 +1,17 @@
+activity::.BikeSeoul
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::Info
+permission::android.permission.RESTART_PACKAGES
+api_call::android/app/ActivityManager;->restartPackage
+activity::MapHangang
+permission::android.permission.INTERNET
+activity::mSeoul
+url::bike.seoul.go.kr
+activity::MapSeoul
+api_call::android/webkit/WebView
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+real_permission::android.permission.RESTART_PACKAGES
+call::getSystemService
+url::http://bike.seoul.go.kr/m/

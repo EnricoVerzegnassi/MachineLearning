@@ -1,0 +1,28 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+service_receiver::WhiteList Service
+permission::android.permission.READ_PHONE_STATE
+intent::android.intent.action.BOOT_COMPLETED
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+api_call::android/content/ContentResolver;->query
+service_receiver::SmartPhone Service
+permission::android.permission.MODIFY_AUDIO_SETTINGS
+activity::com.ranchosoftware.smartphone.WhiteListViewActivity
+real_permission::android.permission.VIBRATE
+call::getSystemService
+permission::android.permission.VIBRATE
+api_call::android/telephony/TelephonyManager;->listen
+activity::.SmartPhoneActivity
+service_receiver::com.ranchosoftware.smartphone.SmartPhoneReceiver
+real_permission::android.permission.READ_PHONE_STATE
+activity::com.ranchosoftware.smartphone.EditEventActivity
+activity::com.ranchosoftware.smartphone.EditRecurrenceActivity
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+service_receiver::com.ranchosoftware.smartphone.BootReceiver
+intent::android.intent.category.LAUNCHER
+permission::android.permission.READ_CALENDAR
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+api_call::android/content/Context;->startService

@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+activity::FruitSplash
+intent::android.intent.action.MAIN
+activity::.FruitSplash
+intent::android.intent.category.LAUNCHER
+intent::android.intent.category.VIEW
+intent::android.intent.action.DEFAULT

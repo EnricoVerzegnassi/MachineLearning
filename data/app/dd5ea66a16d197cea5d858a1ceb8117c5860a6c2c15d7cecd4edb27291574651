@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+url::http://www.mlelectronic.com/samtec/mobile.aspx
+real_permission::android.permission.INTERNET
+activity::.mleSamtecCross
+intent::android.intent.category.LAUNCHER
+url::www.mlelectronic.com

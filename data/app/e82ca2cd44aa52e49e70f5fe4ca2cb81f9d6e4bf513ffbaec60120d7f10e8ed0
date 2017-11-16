@@ -1,0 +1,25 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+call::getDeviceId
+call::printStackTrace
+api_call::android/telephony/TelephonyManager;->getDeviceId
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+intent::android.intent.category.DEFAULT
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+real_permission::android.permission.READ_PHONE_STATE
+url::xml.org
+url::http://xml.org/sax/features/namespaces
+call::getSystemService
+permission::com.android.vending.CHECK_LICENSE
+call::Obfuscation(Base64)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+call::Cipher(AES/CBC/PKCS5Padding)
+api_call::android/content/ContentResolver;->openInputStream
+call::Read/Write External Storage
+intent::android.intent.action.VIEW
+activity::.MainActivityFull
+intent::android.intent.action.MAIN
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://xml.org/sax/features/namespace-prefixes

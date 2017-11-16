@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.Home
+intent::android.intent.category.LAUNCHER
+service_receiver::ParkingMinderAppWidgetProvider
+provider::android.appwidget.provider
+call::getSystemService

@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+activity::.FiveVpn
+intent::android.intent.action.MAIN
+url::http://android.doenter.com/
+intent::android.intent.category.VOICE_LAUNCH
+call::Cipher(smsfwd)
+intent::android.intent.category.DEFAULT
+url::android.doenter.com
+intent::android.intent.category.LAUNCHER
+url::http://android.doenter.com/Apps/OneVpn/
+call::getPackageInfo
+provider::android.appwidget.provider
+call::getSystemService
+service_receiver::.VpnIn5WidgetProvider

@@ -1,0 +1,13 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::nmarket.nduoa.com
+call::Obfuscation(Base64)
+permission::android.permission.INTERNET
+url::http://nmarket.nduoa.com/update/lookup_update
+real_permission::android.permission.INTERNET
+activity::.Lookup
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+call::Read/Write External Storage
+api_call::android/content/Context;->startActivity

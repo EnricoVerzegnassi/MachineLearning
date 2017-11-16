@@ -1,0 +1,17 @@
+url::http://diabetespreventioninfo.blogspot.com/feeds/posts/default?alt%3Drss
+feature::android.hardware.touchscreen
+url::http://news.search.yahoo.com/rss?ei%3DUTF-8&p%3Ddiabetes&fr%3Dnews-us-ss
+intent::android.intent.action.MAIN
+url::juvenation.org
+url::http://juvenation.org/blogs/jdrfnews/rss.aspx
+url::diabetespreventioninfo.blogspot.com
+url::http://diabetespreventioninfo.blogspot.com/
+permission::android.permission.INTERNET
+activity::.Activity1
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+url::i54.tinypic.com
+api_call::android/webkit/WebView
+url::http://i54.tinypic.com/2qb62w8.gif
+real_permission::android.permission.INTERNET
+url::news.search.yahoo.com

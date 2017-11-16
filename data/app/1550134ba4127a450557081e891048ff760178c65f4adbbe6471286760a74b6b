@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_OWNER_DATA
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::printStackTrace
+activity::.bookmgr
+intent::android.intent.category.LAUNCHER

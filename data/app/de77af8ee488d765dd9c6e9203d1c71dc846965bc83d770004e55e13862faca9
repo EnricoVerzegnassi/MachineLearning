@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+activity::de.delusions.measure.MeasureFastEdit
+api_call::android/app/Activity;->startActivity
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+activity::.MeasureTabs
+activity::de.delusions.measure.MeasureEdit
+url::www.workreloaded.com
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::de.delusions.measure.activities.bmi.BmiCalc
+service_receiver::de.delusions.measure.notification.DailyReminder
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+url::http://www.workreloaded.com/software/droid-weight
+call::Read/Write External Storage
+service_receiver::de.delusions.measure.notification.AlarmReceiver
+call::getSystemService

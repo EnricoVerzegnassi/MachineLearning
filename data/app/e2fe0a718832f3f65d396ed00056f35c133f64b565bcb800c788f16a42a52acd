@@ -1,0 +1,13 @@
+feature::android.hardware.location.network
+call::getDeviceId
+feature::android.hardware.touchscreen
+api_call::android/telephony/TelephonyManager;->getDeviceId
+permission::android.permission.READ_PHONE_STATE
+permission::android.permission.ACCESS_COARSE_LOCATION
+feature::android.hardware.location
+real_permission::android.permission.ACCESS_FINE_LOCATION
+api_call::android/telephony/TelephonyManager;->getCellLocation
+real_permission::android.permission.READ_PHONE_STATE
+provider::android.appwidget.provider
+call::getSubscriberId
+call::getSystemService

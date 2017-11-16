@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://survey-reward-programs.blogspot.com/2011/08/bin-ladens-death-survey.html
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE
+call::getSystemService
+activity::.SplashActivity
+url::survey-reward-programs.blogspot.com
+url::http://survey-reward-programs.blogspot.com/2011/08/re-election-of-obama.html

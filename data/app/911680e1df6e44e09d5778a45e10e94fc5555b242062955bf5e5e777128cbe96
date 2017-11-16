@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::restaurant.888bid.com
+intent::android.intent.action.MAIN
+activity::.WaiterActivity
+url::http://restaurant.888bid.com/waiter.htm
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://restaurant.888bid.com/upgrade_info/restaurant7.0.xml
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+api_call::android/app/Activity;->setContentView

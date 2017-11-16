@@ -1,0 +1,16 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::android/os/Vibrator;->vibrate
+activity::.MainMenuActivity
+intent::android.intent.action.MAIN
+url::market.android.com
+call::printStackTrace
+real_permission::android.permission.INTERNET
+real_permission::android.permission.VIBRATE
+url::http://market.android.com/details?id%3Dgames.aksoft.bunnyInTheIsland
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+activity::AndouKun
+api_call::java/net/HttpURLConnection
+call::getSystemService
+activity::ConversationDialogActivity

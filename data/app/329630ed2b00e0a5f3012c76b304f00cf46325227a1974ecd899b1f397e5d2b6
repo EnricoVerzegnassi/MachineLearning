@@ -1,0 +1,13 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+activity::com.android.extrasnake.score
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+activity::com.android.extrasnake.esnake
+feature::android.hardware.screen.portrait
+activity::.mainm
+intent::android.intent.category.LAUNCHER
+activity::com.android.extrasnake.about
+real_permission::android.permission.WAKE_LOCK
+call::getSystemService
+activity::com.android.extrasnake.mainm

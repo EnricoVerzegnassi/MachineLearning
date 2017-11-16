@@ -1,0 +1,13 @@
+activity::.displayListaCazuri
+activity::.displayListaInfo
+activity::.showItem
+activity::.Search
+feature::android.hardware.touchscreen
+url::www.google.com
+activity::.FirstAidRo
+feature::android.hardware.screen.portrait
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+permission::android.permission.CALL_PHONE
+intent::android.intent.action.MAIN
+url::http://www.google.com/search?q%3D

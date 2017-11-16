@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+feature::android.hardware.screen.portrait
+activity::.CurvyStartActivity
+intent::android.intent.category.LAUNCHER
+activity::CurvyStartActivity
+url::http://schemas.android.com/apk/res/android
+url::schemas.android.com

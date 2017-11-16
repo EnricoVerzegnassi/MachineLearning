@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+url::sites.google.com
+intent::android.intent.action.MAIN
+activity::.EggsMain
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+url::http://sites.google.com/site/androsoftsite/

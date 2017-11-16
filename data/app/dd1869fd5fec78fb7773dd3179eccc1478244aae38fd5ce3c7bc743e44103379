@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_CONTACTS
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+call::getSystemService
+activity::.Main
+intent::android.intent.category.LAUNCHER
+permission::android.permission.READ_CALENDAR
+real_permission::android.permission.READ_CONTACTS
+call::getPackageInfo
+intent::android.intent.action.BOOT_COMPLETED
+permission::android.permission.READ_CONTACTS
+service_receiver::MonitorService
+service_receiver::MonitorServiceManager
+api_call::android/content/Context;->startService

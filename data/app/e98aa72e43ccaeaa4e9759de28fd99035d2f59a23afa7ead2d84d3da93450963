@@ -1,0 +1,15 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+call::printStackTrace
+service_receiver::SQLCentreProUpdateService
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::.main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+call::Read/Write External Storage
+api_call::java/net/Socket
+call::getSystemService

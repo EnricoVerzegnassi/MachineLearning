@@ -1,0 +1,7 @@
+permission::android.permission.SET_WALLPAPER
+feature::android.hardware.touchscreen
+activity::.WallChanger
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::printStackTrace
+intent::android.intent.category.LAUNCHER

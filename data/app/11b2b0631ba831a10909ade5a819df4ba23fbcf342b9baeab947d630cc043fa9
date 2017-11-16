@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.camera.autofocus
+feature::android.hardware.camera
+call::Cipher(Blowfish)
+activity::.MainActivity
+permission::android.permission.INTERNET
+api_call::java/net/Socket
+real_permission::android.permission.INTERNET
+url::cloud.paperact.com
+intent::android.intent.category.LAUNCHER
+permission::android.permission.CAMERA
+url::http://cloud.paperact.com
+call::HttpPost
+call::Obfuscation(Base64)
+call::printStackTrace

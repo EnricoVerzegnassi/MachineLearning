@@ -1,0 +1,14 @@
+url::http://mobile.lumberjackball.com
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://mobile.lumberjackball.com/schedule
+url::http://mobile.lumberjackball.com/stats
+activity::.Main
+url::http://mobile.lumberjackball.com/about
+url::http://mobile.lumberjackball.com/roster
+activity::Lumberjack Ball
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::mobile.lumberjackball.com
+real_permission::android.permission.INTERNET

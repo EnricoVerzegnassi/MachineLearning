@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+activity::.menu
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.INTERNET
+activity::.Todaylist
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.admin
+api_call::java/net/Socket

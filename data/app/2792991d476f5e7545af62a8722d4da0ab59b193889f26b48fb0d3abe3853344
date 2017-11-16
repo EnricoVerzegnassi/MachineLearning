@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+url::www.distributorwire.com
+intent::android.intent.action.MAIN
+url::http://www.distributorwire.com/dart/DART.apk
+activity::.helper
+intent::android.intent.category.LAUNCHER

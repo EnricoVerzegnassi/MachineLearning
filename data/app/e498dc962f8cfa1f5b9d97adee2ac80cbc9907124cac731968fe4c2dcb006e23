@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.MainActivity
+service_receiver::.TalkingMailService
+intent::com.fsck.k9.intent.action.EMAIL_RECEIVED
+intent::android.intent.category.LAUNCHER
+service_receiver::.NewMailReceiver
+provider::android.appwidget.provider
+service_receiver::.WidgetProvider
+api_call::android/content/Context;->startService

@@ -1,0 +1,25 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+call::getPackageInfo
+activity::.AltairZ80
+url::http://market.android.com/search?q%3Dpub:MagicAndroidApps.com
+url::market.android.com
+url::http://www.magicandroidapps.com/wiki//index.php?title%3DMain_Page
+url::http://www.magicandroidapps.com/simh
+api_call::android/webkit/WebView
+api_call::java/lang/Runtime;->exec
+url::magicandroidapps.com
+call::Execution of external commands
+url::simh.trailing-edge.com
+intent::android.intent.category.BROWSABLE
+url::www.magicandroidapps.com
+intent::android.intent.action.VIEW
+activity::AltairZ80
+url::http://simh.trailing-edge.com/
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+url::http://magicandroidapps.com/simh/simulators/arm/
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

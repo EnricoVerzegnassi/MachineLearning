@@ -1,0 +1,24 @@
+feature::android.hardware.touchscreen
+permission::android.permission.FORCE_STOP_PACKAGES
+activity::.ActivityExpressSettings
+activity::.ActivityExpress
+url::http://www.facebook.com/pages/Activity-Express/175954882445766
+intent::android.intent.action.BOOT_COMPLETED
+url::http://www.sayhello2theworld.com\n\nThank
+permission::android.permission.GET_TASKS
+api_call::android/content/Context;->startActivity
+real_permission::android.permission.VIBRATE
+call::getSystemService
+api_call::java/lang/Runtime;->exec
+permission::android.permission.KILL_BACKGROUND_PROCESSES
+call::Execution of external commands
+service_receiver::TaskExpressStartup
+url::www.facebook.com
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+service_receiver::.ActivityExpressService
+permission::android.permission.RESTART_PACKAGES
+url::www.sayhello2theworld.com\n\nThank
+intent::android.intent.category.LAUNCHER
+permission::android.permission.RECEIVE_BOOT_COMPLETED

@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+url::https://www.amazon.com/gp/redirect.html?ie%3DUTF8&location%3D
+permission::android.permission.INTERNET
+api_call::android/app/Activity;->startActivity
+call::getPackageInfo
+call::HttpPost
+url::www.amazon.com
+activity::.MainActivity
+api_call::java/net/NetworkInterface
+url::https://www.amazon.com/gp/tradein/add-to-cart.html?asin%3D
+api_call::java/lang/Runtime;->exec
+call::getSystemService
+call::Cipher(AES/ECB/NoPadding)
+activity::.AppPreferenceActivity
+call::Obfuscation(Base64)
+call::Execution of external commands
+url::https://www.amazon.com/gp/tradein/cart.html
+intent::android.intent.action.MAIN
+feature::android.hardware.wifi
+real_permission::android.permission.READ_LOGS
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

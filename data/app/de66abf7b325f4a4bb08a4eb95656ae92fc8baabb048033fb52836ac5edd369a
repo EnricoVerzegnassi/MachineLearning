@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::mobilequery.com
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+url::http://aspell.net
+permission::android.permission.INTERNET
+url::aspell.net
+intent::android.intent.category.LAUNCHER
+activity::.ASpell
+real_permission::android.permission.INTERNET
+url::http://mobilequery.com/ASpellV1.txt

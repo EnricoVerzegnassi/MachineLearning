@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::java/net/URL;->getContent
+activity::.LibSeat
+url::www.soongguri.com
+activity::.BookS
+url::http://www.soongguri.com/inc.php?inc%3Dweekly/weekly
+activity::.SSUHelper
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.Diet
+url::http://203.253.1.218/domian.asp
+url::203.253.1.218
+real_permission::android.permission.INTERNET
+call::getSystemService

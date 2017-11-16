@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+activity::.Popupnews
+api_call::java/net/URL;->openStream
+url::http://android-france.fr
+intent::android.intent.action.MAIN
+service_receiver::.Blogeee$UpdateService
+permission::android.permission.INTERNET
+url::feeds.feedburner.com
+url::android-france.fr
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.INSERT
+url::http://feeds.feedburner.com/blogeee/articles
+real_permission::android.permission.INTERNET
+provider::android.appwidget.provider
+api_call::android/content/Context;->startService

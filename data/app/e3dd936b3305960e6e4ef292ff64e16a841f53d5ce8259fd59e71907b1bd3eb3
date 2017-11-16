@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::www.quote-hunter.com
+permission::android.permission.INTERNET
+activity::.QuoteHunter
+intent::android.intent.category.LAUNCHER
+url::http://www.quote-hunter.com/mobile_quote.php

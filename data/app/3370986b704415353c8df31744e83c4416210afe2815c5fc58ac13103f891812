@@ -1,0 +1,16 @@
+url::samurai-apps.com
+feature::android.hardware.touchscreen
+url::market.android.com
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.StandAloneActivity
+call::printStackTrace
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+api_call::java/net/HttpURLConnection
+intent::android.intent.category.LAUNCHER
+url::http://samurai-apps.com/api/chartexpert/partners
+real_permission::android.permission.INTERNET
+url::http://market.android.com/search?q%3D
+activity::.ChartModeActivity
+intent::android.intent.action.VIEW

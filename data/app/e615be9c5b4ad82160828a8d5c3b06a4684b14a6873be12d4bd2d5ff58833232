@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::java/net/URL;->openConnection
+intent::android.intent.action.MAIN
+activity::com.languagespace.flashcard.view.ShowCard
+activity::.Welcome
+activity::com.languagespace.flashcard.view.Help
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::com.languagespace.flashcard.view.DownLoadView
+real_permission::android.permission.INTERNET
+url::http://www.languagespace.com/flashcard/xml2
+url::www.languagespace.com
+call::getSystemService
+activity::com.languagespace.flashcard.view.Welcome

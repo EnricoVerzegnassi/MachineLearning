@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+activity::.ExpressForAndroid
+url::http://expy.jp/member/login/index.html
+intent::android.intent.action.MAIN
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::images.ad-maker.info
+url::http://images.ad-maker.info/apps/lp3wdjshxyhh.html
+activity::.ExpressPreference
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+api_call::android/app/Activity;->startActivity
+call::getSystemService
+url::expy.jp

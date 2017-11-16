@@ -1,0 +1,12 @@
+feature::android.hardware.location.network
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_COARSE_LOCATION
+url::http://www.ybmuniv.com<p>*\uc2e0\uccad\ubc29\ubc95
+url::http://mobile.twitter.com/KNU_DC
+permission::android.permission.INTERNET
+feature::android.hardware.location
+url::www.ybmuniv.com<p>*\uc2e0\uccad\ubc29\ubc95
+url::mobile.twitter.com
+intent::android.intent.category.LAUNCHER
+activity::.KNU_DC_main

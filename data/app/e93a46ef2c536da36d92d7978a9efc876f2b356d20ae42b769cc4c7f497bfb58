@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::www.whenever.at
+activity::.Main
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+url::https://www.whenever.at/mobile/register/adressen
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+call::getPackageInfo
+real_permission::android.permission.INTERNET

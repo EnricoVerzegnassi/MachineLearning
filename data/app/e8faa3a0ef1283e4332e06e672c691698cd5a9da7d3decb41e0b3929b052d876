@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.WRITE_SETTINGS
+service_receiver::.AirplaneModeWidget
+api_call::android/provider/Settings$System;->putInt
+api_call::android/content/Context;->sendBroadcast
+provider::android.appwidget.provider
+intent::android.intent.action.AIRPLANE_MODE
+permission::android.permission.WRITE_SETTINGS

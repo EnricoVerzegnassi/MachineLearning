@@ -1,0 +1,11 @@
+feature::android.hardware.location.network
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+permission::android.permission.READ_PHONE_STATE
+api_call::android/media/MediaPlayer;->start
+activity::.Hatch
+permission::android.permission.ACCESS_COARSE_LOCATION
+permission::android.permission.INTERNET
+feature::android.hardware.location
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.WAKE_LOCK

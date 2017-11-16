@@ -1,0 +1,18 @@
+url::http://www.1473labs.com/topic1/wall/easter/
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+api_call::android/content/ContentResolver;->openInputStream
+activity::proscio.wallpaper.easterlite.AlertEggsDialog
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::http://www.1473labs.com/topic1/greetings/res/
+feature::android.hardware.screen.portrait
+call::Read/Write External Storage
+url::http://www.1473labs.com/topic1/wall/easter/res.xml
+url::www.1473labs.com
+real_permission::android.permission.READ_CONTACTS
+url::http://www.1473labs.com/topic1/wall/easter
+real_permission::android.permission.INTERNET
+activity::proscio.wallpaper.easterlite.HelpAboutInfo
+intent::android.intent.category.INFO
+call::getSystemService

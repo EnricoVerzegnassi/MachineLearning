@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+activity::.FirstActivity
+call::HttpPost
+activity::.test.SettingsActivity
+activity::.MainActivity
+call::getSystemService
+intent::android.intent.category.LAUNCHER
+activity::.test.WebCafeActivity
+url::http://m.cafe.daum.net/saynolove
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::.ForthActivity
+activity::.SecondResultActivity
+api_call::android/webkit/WebView
+activity::.ThirdActivity
+intent::android.intent.action.MAIN
+activity::.SecondActivity
+activity::.FifthActivity
+real_permission::android.permission.INTERNET
+url::m.cafe.daum.net
+activity::.SixthActivity
+permission::android.permission.RESTART_PACKAGES
+activity::.IntroActivity

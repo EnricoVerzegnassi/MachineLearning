@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+activity::.ShirtDetailsActivity
+activity::.ShirtTypeActivity
+api_call::java/net/HttpURLConnection
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+url::http://api.spreadshirt.com/api/v1/baskets
+activity::.ImageEditActivity
+real_permission::android.permission.INTERNET
+call::HttpPost
+activity::.ShirtPreviewActivity
+call::printStackTrace
+url::http://api.spreadshirt.com/api/v1/baskets/
+url::http://api.spreadshirt.com/api/v1/shops/
+activity::.CreateProductActivity
+url::api.spreadshirt.com
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.screen.portrait
+activity::.MainMenu
+intent::android.intent.category.LAUNCHER
+activity::.MediaActivity

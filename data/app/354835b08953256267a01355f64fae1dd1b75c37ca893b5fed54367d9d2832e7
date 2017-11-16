@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+url::http://docs.google.com/viewer?url%3D
+intent::android.intent.category.DEFAULT
+url::docs.google.com
+intent::android.intent.category.ALTERNATIVE
+activity::.RvMobileActivity
+real_permission::android.permission.INTERNET
+intent::android.intent.category.SELECTED_ALTERNATIVE
+intent::android.intent.category.LAUNCHER

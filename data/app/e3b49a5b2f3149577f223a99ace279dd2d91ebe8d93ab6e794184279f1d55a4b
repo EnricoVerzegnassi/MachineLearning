@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.PICK
+intent::android.intent.action.MAIN
+activity::.Main
+activity::.Game
+feature::android.hardware.screen.portrait
+activity::.SplashScreenActivity
+activity::.GameSummary
+intent::android.intent.category.DEFAULT
+call::getSystemService
+intent::android.intent.category.LAUNCHER

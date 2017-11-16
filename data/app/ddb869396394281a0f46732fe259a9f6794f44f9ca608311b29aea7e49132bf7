@@ -1,0 +1,11 @@
+api_call::android/webkit/WebView
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::dic.yahoo.co.jp
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://dic.yahoo.co.jp/dsearch?enc%3DUTF-8&stype%3D0&dtype%3D3&p%3D
+activity::.MyVocabJapanese
+url::http://dic.yahoo.co.jp/dsearch?enc%3DUTF-8&stype%3D0&dtype%3D1&p%3D
+call::getPackageInfo
+intent::android.intent.category.LAUNCHER

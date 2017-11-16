@@ -1,0 +1,14 @@
+provider::android.provider.Telephony.SMS_RECEIVED
+url::sites.google.com
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+url::http://sites.google.com/site/laswpro/
+permission::android.permission.RECEIVE_SMS
+permission::android.permission.READ_SMS
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.READ_CONTACTS
+activity::.Configure
+permission::android.permission.READ_CONTACTS
+provider::android.appwidget.provider
+api_call::android/content/ContentResolver;->query

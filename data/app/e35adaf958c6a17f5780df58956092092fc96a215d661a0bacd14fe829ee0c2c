@@ -1,0 +1,12 @@
+intent::android.intent.action.HEADSET_PLUG
+feature::android.hardware.touchscreen
+real_permission::android.permission.MODIFY_AUDIO_SETTINGS
+intent::android.intent.action.MAIN
+permission::android.permission.MODIFY_AUDIO_SETTINGS
+api_call::android/media/AudioManager;->setMode
+intent::android.intent.action.ACTION_POWER_DISCONNECTED
+service_receiver::BQ_Receiver
+activity::.MainPref
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.HEADSET_STATE_CHANGED
+call::getSystemService

@@ -1,0 +1,13 @@
+activity::.CallWaitingNotificationActivity
+feature::android.hardware.touchscreen
+service_receiver::.PhoneStateReceiver
+service_receiver::.CallWaitingNotificationService
+intent::android.intent.action.MAIN
+permission::android.permission.READ_PHONE_STATE
+intent::android.intent.action.PHONE_STATE
+permission::android.permission.VIBRATE
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+api_call::android/content/Context;->startService
+call::getSystemService
+api_call::android/os/Vibrator;->cancel

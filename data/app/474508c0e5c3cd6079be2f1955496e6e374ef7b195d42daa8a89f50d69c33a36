@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::com.example.helloandroid.HelloWorld
+activity::.HelloWorld
+intent::android.intent.category.LAUNCHER
+call::getSystemService

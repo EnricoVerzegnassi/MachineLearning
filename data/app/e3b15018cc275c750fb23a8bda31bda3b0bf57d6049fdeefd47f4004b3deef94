@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+activity::.Users
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+call::Obfuscation(Base64)
+activity::.Wizard
+activity::.UserEdit
+call::Cipher(AES/CBC/PKCS5Padding)
+intent::android.intent.category.LAUNCHER
+api_call::android/content/ContentResolver;->query
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+activity::.Payment
+call::getSystemService

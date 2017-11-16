@@ -1,0 +1,25 @@
+url::http://bit.ly/xdamemory
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.category.HOME
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.ALTERNATIVE
+intent::android.intent.action.BOOT_COMPLETED
+url::http://andrs.w3pla.net/settings/save
+call::HttpPost
+intent::android.intent.action.CREATE_SHORTCUT
+activity::.AutoKillerActivity
+url::bit.ly
+service_receiver::AutoKillerStartupIntentReceiver
+api_call::java/lang/Runtime;->exec
+call::Execution of external commands
+api_call::android/content/Context;->startService
+service_receiver::.AutoKillerService
+url::http://andrs.w3pla.net
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+url::andrs.w3pla.net
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+permission::android.permission.RECEIVE_BOOT_COMPLETED

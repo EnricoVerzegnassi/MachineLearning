@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+call::printStackTrace
+call::HttpPost
+permission::android.permission.INTERNET
+service_receiver::com.opsview.OpsviewAPI
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+activity::.OpsviewMobile
+call::getSystemService
+activity::OpsviewMobile

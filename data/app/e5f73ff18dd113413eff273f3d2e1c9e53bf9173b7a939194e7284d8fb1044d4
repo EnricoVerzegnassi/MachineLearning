@@ -1,0 +1,4 @@
+feature::android.hardware.touchscreen
+url::favolog.org
+url::http://favolog.org/
+intent::android.intent.category.DEFAULT

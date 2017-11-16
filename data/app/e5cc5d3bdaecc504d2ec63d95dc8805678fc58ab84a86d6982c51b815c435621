@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.MainActivity
+url::www.medicalize.com
+permission::android.permission.INTERNET
+url::http://www.medicalize.com/mobile/main_a01/index.php?ver%3Dv5
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET

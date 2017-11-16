@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+url::http://www.thescore.com.au/football/
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+activity::.FootyScoreboard
+url::http://www.thescore.com.au/nrl/ladder.html
+real_permission::android.permission.WAKE_LOCK
+url::http://www.thescore.com.au/afl/
+url::http://www.thescore.com.au/football/a-league/ladder.html
+service_receiver::ScoreCheck
+real_permission::android.permission.VIBRATE
+url::http://www.thescore.com.au/rugby/super14/super14-ladder.html
+call::getSystemService
+permission::android.permission.VIBRATE
+api_call::android/os/PowerManager$WakeLock;->acquire
+url::http://www.thescore.com.au/nrl/
+url::http://www.thescore.com.au/rugby/
+activity::FootyScoreboard
+api_call::java/net/URL;->openConnection
+permission::android.permission.WAKE_LOCK
+url::http://www.thescore.com.au
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+url::www.thescore.com.au
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://www.thescore.com.au/afl/ladder.html

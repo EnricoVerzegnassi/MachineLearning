@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+service_receiver::.ResponderService
+intent::android.intent.action.MAIN
+activity::.OutOfOfficeSmsLauncher
+permission::android.permission.SEND_SMS
+permission::android.permission.RECEIVE_SMS
+feature::android.hardware.telephony
+api_call::android/telephony/SmsManager;->sendMultipartTextMessage
+real_permission::android.permission.SEND_SMS
+intent::android.intent.category.LAUNCHER
+service_receiver::.AppWidget$ToggleService
+provider::android.appwidget.provider
+api_call::android/content/Context;->startService

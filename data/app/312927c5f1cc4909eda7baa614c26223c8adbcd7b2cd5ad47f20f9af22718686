@@ -1,0 +1,27 @@
+activity::com.barisefe.MapViewActivity
+permission::android.permission.ACCESS_FINE_LOCATION
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_COARSE_LOCATION
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+real_permission::android.permission.ACCESS_FINE_LOCATION
+call::getPackageInfo
+url::http://market.android.com/search?q%3Dpname:com.threebanana.notes
+feature::android.hardware.location.gps
+url::market.android.com
+api_call::android/content/Context;->startActivity
+permission::android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+feature::android.hardware.location
+url::www.opengis.net
+real_permission::android.permission.VIBRATE
+url::http://www.opengis.net/kml/2.2\
+activity::.MapViewActivity
+activity::com.barisefe.SettingsActivity
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+api_call::android/location/LocationManager;->getBestProvider
+feature::android.hardware.screen.portrait
+feature::android.hardware.location.network
+intent::android.intent.category.LAUNCHER
+call::getSystemService
+service_receiver::ActivityTrackerService

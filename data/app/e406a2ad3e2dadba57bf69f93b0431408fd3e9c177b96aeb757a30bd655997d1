@@ -1,0 +1,25 @@
+feature::android.hardware.touchscreen
+url::www.password-depot.de
+intent::android.intent.category.DEFAULT
+activity::.About
+activity::.Options
+activity::.EditCustomField
+activity::.EnterPassword
+real_permission::android.permission.VIBRATE
+call::getSystemService
+activity::.NewPasswordFile
+activity::.EditTan
+service_receiver::aceBit.passwordDepot.ModelService.DepotService
+call::Obfuscation(Base64)
+activity::.RecentUsedFilesList
+activity::.PasswordsDepot
+call::Read/Write External Storage
+activity::.PasswordDetailsTabs
+intent::android.intent.action.MAIN
+activity::.Analyzer
+activity::.FilesBrowserList
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::http://www.password-depot.de/schemas/passwordfile/5.0/passwordfile.xsd\
+intent::android.intent.category.LAUNCHER
+activity::.PasswordsSearch
+api_call::android/app/NotificationManager;->notify

@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/content/Context;->startActivity
+activity::.Run
+url::http://www.co-solutions.co.uk
+url::www.co-solutions.co.uk
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER

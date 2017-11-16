@@ -1,0 +1,18 @@
+service_receiver::antr widget 4x1
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+intent::android.intent.action.MAIN
+activity::.activity.WidgetPrefActivity
+activity::.ViewTblExplorerActivity
+call::Read/Write External Storage
+intent::android.intent.category.DEFAULT
+call::getSystemService
+intent::android.intent.action.USER_PRESENT
+intent::android.intent.category.LAUNCHER
+service_receiver::antr widget 2x1
+activity::antr widget 1x1
+service_receiver::antr widget 3x1
+provider::android.appwidget.provider
+service_receiver::antr widget 1x1
+intent::android.intent.action.VIEW
+service_receiver::.UpdateWidgetsService

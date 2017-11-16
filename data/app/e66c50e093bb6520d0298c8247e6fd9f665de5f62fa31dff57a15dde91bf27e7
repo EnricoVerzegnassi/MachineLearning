@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+permission::android.permission.INTERNET
+activity::.inbrowser
+call::Read/Write External Storage
+activity::.Preferences
+url::http://tpinbrowser.appspot.com/v/16
+url::http://tpinbrowser.appspot.com/error.jsp?id%3D
+activity::InBrowser Video Player
+permission::android.permission.WAKE_LOCK
+real_permission::android.permission.VIBRATE
+call::getSystemService
+url::http://tpinbrowser.appspot.com/donate.jsp
+url::http://tpinbrowser.appspot.com/support.jsp
+activity::.Filebrowser
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.INTERNET
+url::tpinbrowser.appspot.com
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView

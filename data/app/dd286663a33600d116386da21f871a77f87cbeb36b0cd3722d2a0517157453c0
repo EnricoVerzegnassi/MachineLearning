@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+url::www.ekoodi.com
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://www.ekoodi.com/xmlrpc.php
+activity::.AdditiveListActivity
+intent::android.intent.category.LAUNCHER
+activity::AdditiveListActivity
+call::HttpPost
+call::getSystemService
+activity::HelpActivity

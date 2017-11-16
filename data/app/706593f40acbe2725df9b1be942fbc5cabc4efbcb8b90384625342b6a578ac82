@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+service_receiver::Brightness Level
+real_permission::android.permission.WRITE_SETTINGS
+api_call::android/content/Context;->startActivity
+service_receiver::BrightnessToggleWidget$UpdateService
+activity::BrightnessActivity
+provider::android.appwidget.provider
+api_call::android/provider/Settings$System;->putInt
+permission::android.permission.WRITE_SETTINGS

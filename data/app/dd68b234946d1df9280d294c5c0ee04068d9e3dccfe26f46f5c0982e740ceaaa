@@ -1,0 +1,8 @@
+activity::TieImageSwitcher
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::MainScreen
+activity::.MainScreen
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/app/Activity;->startActivity

@@ -1,0 +1,11 @@
+permission::android.permission.SET_WALLPAPER
+feature::android.hardware.touchscreen
+url::www.androidslide.com
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+url::http://www.androidslide.com/iis/ErrorPage.aspx
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.PhotoSlideActivity
+call::HttpPost

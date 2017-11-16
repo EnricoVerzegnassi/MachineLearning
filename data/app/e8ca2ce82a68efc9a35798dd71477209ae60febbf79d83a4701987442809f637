@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.Main
+feature::android.hardware.screen.portrait
+activity::.activity.Main
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+call::getSystemService

@@ -1,0 +1,19 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+api_call::android/content/ContentResolver;->openInputStream
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::http://www.1473labs.com/topic1/greetings/res/
+call::printStackTrace
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::http://www.1473labs.com/topic1/wall/diamonds
+url::http://www.1473labs.com/topic1/wall/diamonds/res.xml
+call::getSystemService
+url::www.1473labs.com
+activity::.HelpAboutInfo
+real_permission::android.permission.INTERNET
+real_permission::android.permission.READ_CONTACTS
+intent::android.intent.category.INFO
+url::http://www.1473labs.com/topic1/wall/diamonds/

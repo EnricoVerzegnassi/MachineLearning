@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::www.mopapp.com
+activity::.LoginActivity
+call::Cipher(AES)
+activity::.AboutActivity
+activity::.SplashScreenActivity
+feature::android.hardware.screen.portrait
+permission::android.permission.INTERNET
+activity::.CoreActivity
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+url::https://www.mopapp.com/my/android/dashboard?token%3D
+url::https://www.mopapp.com/api/authentication/login.xml?version%3D1.0&

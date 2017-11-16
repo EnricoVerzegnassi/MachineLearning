@@ -1,0 +1,16 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openConnection
+real_permission::android.permission.VIBRATE
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/os/Vibrator;->vibrate
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::go.adclick.mobi
+intent::android.intent.category.LAUNCHER
+activity::.MenuActivity
+real_permission::android.permission.INTERNET
+call::getSystemService
+url::http://go.adclick.mobi/show/request.php?appid%3D

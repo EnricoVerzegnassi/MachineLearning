@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+service_receiver::.BackgroundTickService
+intent::android.intent.action.MAIN
+activity::.MyMeetingTicker
+activity::Meeting Cost
+activity::.Settings
+intent::android.intent.category.LAUNCHER

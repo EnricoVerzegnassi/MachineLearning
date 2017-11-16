@@ -1,0 +1,14 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+activity::.Calculator
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/os/Vibrator;->vibrate
+feature::android.hardware.screen.portrait
+call::Read/Write External Storage
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+call::getPackageInfo
+call::getSystemService
+url::http://schemas.android.com/apk/res/android
+url::schemas.android.com

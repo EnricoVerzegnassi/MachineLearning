@@ -1,0 +1,6 @@
+url::www.madamgeeky.mobi
+feature::android.hardware.touchscreen
+url::http://www.madamgeeky.mobi/2011/07/manchester-united.html
+intent::android.intent.action.MAIN
+intent::android.intent.category.LAUNCHER
+activity::.ManUnitedActivity

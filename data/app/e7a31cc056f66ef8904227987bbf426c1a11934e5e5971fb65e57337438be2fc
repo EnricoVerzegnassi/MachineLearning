@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+url::http://hitechpilot.blogspot.com
+intent::android.intent.action.MAIN
+service_receiver::.SimpleClockUpdateService
+url::hitechpilot.blogspot.com
+activity::.SettingsList
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+provider::android.appwidget.provider
+api_call::android/content/Context;->startService

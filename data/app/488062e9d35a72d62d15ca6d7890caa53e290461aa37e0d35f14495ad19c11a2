@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+activity::Preferences
+url::http://www.follicleconsultants.com/Expreiments/Follicle-PNR.html
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::www.follicleconsultants.com
+url::http://www.facebook.com/pages/Pocket-Conductor-Delhi/147247858664523
+url::http://www.follicleconsultants.com/Expreiments/Follicle-ATM.html
+url::www.facebook.com
+url::http://www.follicleconsultants.com/CorrectionPortalPocketConductorDelhi.html
+intent::android.intent.category.LAUNCHER
+url::http://www.follicleconsultants.com/AnnouncePocketConductorDelhi.php?message%3D
+activity::.planForm_1
+url::http://www.follicleconsultants.com/PosReport.php?route%3D

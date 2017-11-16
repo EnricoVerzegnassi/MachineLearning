@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::mobile.dailymountaineer.com
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.Main
+permission::android.permission.INTERNET
+url::http://mobile.dailymountaineer.com/about
+url::http://mobile.dailymountaineer.com/roster
+url::http://mobile.dailymountaineer.com/stats
+intent::android.intent.category.LAUNCHER
+url::http://mobile.dailymountaineer.com
+activity::Daily Mountaineer
+real_permission::android.permission.INTERNET
+url::http://mobile.dailymountaineer.com/schedule

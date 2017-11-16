@@ -1,0 +1,17 @@
+activity::.Aare
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+provider::android.appwidget.provider
+service_receiver::TempWidgetProvider
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::http://aare.thx.ch/api/v1.0/json.php?st%3D
+url::aare.thx.ch
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.INTERNET
+activity::Aare
+call::getSystemService

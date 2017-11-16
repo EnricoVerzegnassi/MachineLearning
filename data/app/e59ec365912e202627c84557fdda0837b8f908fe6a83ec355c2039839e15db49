@@ -1,0 +1,26 @@
+url::http://192.168.0.3/
+feature::android.hardware.touchscreen
+url::ws.geonames.org
+url::pagead2.googlesyndication.com
+url::www.route3d.com
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+real_permission::android.permission.ACCESS_FINE_LOCATION
+call::getPackageInfo
+real_permission::android.permission.WAKE_LOCK
+api_call::android/location/LocationManager;->requestLocationUpdates
+url::http://ws.geonames.org/search?maxRows%3D1&name_startsWith%3D
+url::http://route3d.com/cache/
+api_call::android/content/Context;->startActivity
+url::192.168.0.3
+url::http://www.route3d.com
+url::http://pagead2.googlesyndication.com/pagead/show_mobile_ads.js
+call::getSystemService
+url::route3d.com
+api_call::android/webkit/WebView
+activity::.AppActivity
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/media/MediaPlayer;->start

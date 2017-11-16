@@ -1,0 +1,14 @@
+url::http://mobile.dailyund.com/schedule
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.Main
+url::http://mobile.dailyund.com/roster
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://mobile.dailyund.com/about
+intent::android.intent.category.LAUNCHER
+activity::Daily UND
+url::mobile.dailyund.com
+url::http://mobile.dailyund.com
+url::http://mobile.dailyund.com/stats

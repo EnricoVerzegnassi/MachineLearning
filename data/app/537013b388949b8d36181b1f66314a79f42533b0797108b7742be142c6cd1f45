@@ -1,0 +1,24 @@
+feature::android.hardware.touchscreen
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+call::getWifiState
+real_permission::android.permission.ACCESS_WIFI_STATE
+real_permission::android.permission.INTERNET
+permission::android.permission.ACCESS_WIFI_STATE
+url::https://12345lps.appspot.com/activation
+api_call::android/net/wifi/WifiManager;->getConnectionInfo
+real_permission::android.permission.VIBRATE
+url::12345lps.appspot.com
+call::getSystemService
+service_receiver::.PhotoWebService
+api_call::java/net/NetworkInterface
+api_call::android/net/NetworkInfo;->isConnectedOrConnecting
+real_permission::android.permission.ACCESS_NETWORK_STATE
+intent::android.intent.action.MAIN
+feature::android.hardware.wifi
+activity::.PhotoWebActivity
+feature::android.hardware.screen.portrait
+permission::android.permission.VIBRATE
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/app/NotificationManager;->notify

@@ -1,0 +1,10 @@
+url::http://probaseballapps.com/apps/alex_gonzalez.php
+feature::android.hardware.touchscreen
+activity::.alexgonzalez
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::probaseballapps.com
+intent::android.intent.category.LAUNCHER

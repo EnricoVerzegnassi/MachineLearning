@@ -1,0 +1,16 @@
+activity::.DTrackTime
+feature::android.hardware.touchscreen
+service_receiver::.services.UpdateService
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::printStackTrace
+activity::.ChartMain
+call::Read/Write External Storage
+activity::.Projects
+activity::.Clients
+service_receiver::DTrackTimeAppWidgetProvider
+intent::android.intent.category.LAUNCHER
+activity::.History
+provider::android.appwidget.provider
+call::getSystemService
+api_call::android/content/Context;->startService

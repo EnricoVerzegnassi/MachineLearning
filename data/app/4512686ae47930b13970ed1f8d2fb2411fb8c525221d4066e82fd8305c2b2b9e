@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+activity::.Help
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+real_permission::android.permission.WRITE_SETTINGS
+api_call::java/lang/Runtime;->exec
+activity::.change_density
+activity::.Settings
+call::Execution of external commands
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+activity::.About
+api_call::android/provider/Settings$System;->putInt
+permission::android.permission.WRITE_SETTINGS

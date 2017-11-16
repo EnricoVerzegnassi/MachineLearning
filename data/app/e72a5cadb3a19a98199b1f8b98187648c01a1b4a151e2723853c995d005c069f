@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.main
+url::http://code.google.com/p/debconf/
+intent::android.intent.category.LAUNCHER
+url::code.google.com

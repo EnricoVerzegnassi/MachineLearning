@@ -1,0 +1,20 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::android/os/Vibrator;->vibrate
+real_permission::android.permission.RECORD_AUDIO
+activity::.Rich
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::www.kaas1.org
+api_call::android/media/MediaPlayer;->start
+api_call::android/media/MediaRecorder;->setAudioSource
+api_call::android/app/ActivityManager;->restartPackage
+call::Read/Write External Storage
+real_permission::android.permission.RESTART_PACKAGES
+url::http://www.kaas1.org
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+permission::android.permission.RESTART_PACKAGES
+real_permission::android.permission.INTERNET
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

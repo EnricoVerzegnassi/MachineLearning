@@ -1,0 +1,32 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+call::getDeviceId
+feature::android.hardware.sensor.compass
+api_call::android/os/Vibrator;->vibrate
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+real_permission::android.permission.READ_CONTACTS
+real_permission::android.permission.INTERNET
+url::http://www.heyzap.com/mobile/register_sdk_click?game_package%3D
+real_permission::android.permission.WAKE_LOCK
+api_call::android/content/ContentResolver;->query
+api_call::android/media/MediaPlayer;->start
+url::http://www.heyzap.com/mobile/register_sdk_view?game_package%3D
+url::www.heyzap.com
+real_permission::android.permission.VIBRATE
+call::printStackTrace
+call::getSystemService
+intent::android.intent.category.LAUNCHER
+url::http://www.heyzap.com
+activity::Load Game
+activity::.TitleScreen
+permission::android.permission.WAKE_LOCK
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+feature::android.hardware.sensor.accelerometer
+activity::Sensor Calibration
+feature::android.hardware.screen.portrait
+permission::android.permission.VIBRATE
+activity::Save Game
+api_call::android/content/Context;->startActivity

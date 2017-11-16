@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::com.riilabs.app.SimpleImageViewer.FileDialog
+activity::.MainActivity
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+activity::MainActivity
+call::getSystemService

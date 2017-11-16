@@ -1,0 +1,12 @@
+activity::.spring
+activity::.info
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+api_call::android/media/MediaPlayer;->start
+call::printStackTrace
+activity::.her
+feature::android.hardware.screen.portrait
+activity::.Flashlight
+intent::android.intent.category.LAUNCHER
+activity::.him
+real_permission::android.permission.WAKE_LOCK

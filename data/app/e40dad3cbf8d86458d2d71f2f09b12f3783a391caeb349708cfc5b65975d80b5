@@ -1,0 +1,10 @@
+url::http://hi.baidu.com/kobeailanlan/home
+feature::android.hardware.touchscreen
+activity::.fileManager
+intent::android.intent.action.MAIN
+activity::%E6%E4%BB%B6%E7%AE%A1%E7%E5%A8
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+url::hi.baidu.com
+call::Read/Write External Storage
+call::getSystemService

@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::getSystemService
+call::Obfuscation(Base64)
+feature::android.hardware.screen.portrait
+call::Cipher(AES/CBC/PKCS5Padding)
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+activity::MainPage
+activity::.MainPage

@@ -1,0 +1,13 @@
+activity::BetHelperMenuActivity
+url::http://bethelp.haitco.com/predictions52.php
+activity::BetHelperShowDetailsPredictionActivity
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::BetHelperPredictionActivity
+permission::android.permission.INTERNET
+url::bethelp.haitco.com
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+activity::.BetHelperActivity
+call::HttpPost

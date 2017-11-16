@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.CHANGE_COMPONENT_ENABLED_STATE
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+provider::android.appwidget.provider
+intent::android.intent.category.DEFAULT
+service_receiver::org.snot.vcutwidget.Widget41
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.READ_CONTACTS
+intent::android.intent.action.BOOT_COMPLETED
+api_call::android/content/Context;->sendBroadcast
+service_receiver::org.snot.vcutwidget.RebootReceiver
+activity::.VCutWidget
+api_call::android/content/pm/PackageManager;->setComponentEnabledSetting
+call::getSystemService

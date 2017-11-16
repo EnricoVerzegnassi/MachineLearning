@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::br.com.mdias.flexmeter.ui.menu.Settings
+activity::.FlexMeter
+call::printStackTrace
+activity::br.com.mdias.flexmeter.ui.EditHistoryItem
+call::Read/Write External Storage
+activity::br.com.mdias.flexmeter.ui.menu.DataMaintance
+call::getPackageInfo
+activity::br.com.mdias.flexmeter.ui.component.ArrayListSelectionActivity
+intent::android.intent.category.LAUNCHER

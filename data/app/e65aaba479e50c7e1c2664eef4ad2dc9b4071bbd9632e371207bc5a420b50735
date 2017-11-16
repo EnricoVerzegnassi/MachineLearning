@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.Prefs
+activity::org.felixsudoku.Game
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.WAKE_LOCK
+api_call::android/media/MediaPlayer;->start
+activity::.Sudoku

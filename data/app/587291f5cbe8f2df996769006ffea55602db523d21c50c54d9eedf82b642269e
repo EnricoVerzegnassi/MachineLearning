@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::getSystemService
+activity::BrightDayHelp
+service_receiver::BrightDayStarter
+url::http://digitalsquid.co.uk/brightday/
+activity::.BrightDay
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.WRITE_SETTINGS
+api_call::android/provider/Settings$System;->putInt
+intent::android.intent.action.BOOT_COMPLETED
+permission::android.permission.WRITE_SETTINGS
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+url::digitalsquid.co.uk
+service_receiver::BrightDayTick

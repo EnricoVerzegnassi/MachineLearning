@@ -1,0 +1,13 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+url::http://maps.google.com/maps?f%3Dq&hl%3Den&q%3D
+intent::android.intent.action.MAIN
+url::www.chinese411.com
+call::printStackTrace
+permission::android.permission.INTERNET
+activity::.Search
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::maps.google.com
+feature::android.hardware.screen.portrait
+url::http://www.chinese411.com/images/ad/

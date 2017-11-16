@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+activity::.Popupnews
+url::http://android-france.fr
+intent::android.intent.action.MAIN
+service_receiver::.eBouquin$UpdateService
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://www.ebouquin.fr/feed/
+url::android-france.fr
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.INSERT
+api_call::java/net/URL;->openStream
+provider::android.appwidget.provider
+url::www.ebouquin.fr
+api_call::android/content/Context;->startService

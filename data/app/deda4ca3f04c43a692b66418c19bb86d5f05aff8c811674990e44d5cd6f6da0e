@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+url::http://www.silverleaf-consulting.com/CyclingNews/CycloCross.aspx
+intent::android.intent.action.MAIN
+url::http://www.silverleaf-consulting.com/CyclingNews/Mountain.aspx
+url::http://www.silverleaf-consulting.com/CyclingNews/Track.aspx
+url::http://www.silverleaf-consulting.com/CyclingNews
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::http://www.silverleaf-consulting.com/CyclingNews/Default.aspx
+url::http://www.silverleaf-consulting.com/CyclingNews/Road.aspx
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::www.silverleaf-consulting.com
+real_permission::android.permission.INTERNET
+activity::.cyclingnews

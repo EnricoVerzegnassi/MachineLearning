@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+activity::.startPage
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->stop
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.WAKE_LOCK

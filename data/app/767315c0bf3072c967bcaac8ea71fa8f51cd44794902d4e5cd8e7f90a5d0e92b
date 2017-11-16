@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+call::sendSMS
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.SEND_SMS
+real_permission::android.permission.SEND_SMS
+activity::.ARTA
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+api_call::android/telephony/gsm/SmsManager;->sendMultipartTextMessage
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+api_call::android/content/ContentResolver;->query

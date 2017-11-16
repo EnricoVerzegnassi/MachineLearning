@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::api.dailymile.com
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+call::HttpPost
+api_call::android/content/Context;->startActivity
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+activity::.DailyMilerActivity
+real_permission::android.permission.INTERNET
+intent::android.intent.category.BROWSABLE
+url::https://api.dailymile.com/entries.json?oauth_token%3D
+intent::android.intent.action.VIEW

@@ -1,0 +1,18 @@
+feature::android.hardware.touchscreen
+api_call::android/content/ContentResolver;->openInputStream
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::com.android.vending.CHECK_LICENSE
+call::Obfuscation(Base64)
+activity::.Main
+call::Cipher(AES)
+real_permission::android.permission.INTERNET
+call::Cipher(AES/CBC/PKCS5Padding)
+activity::.P
+api_call::java/net/NetworkInterface
+activity::.HV
+real_permission::android.permission.READ_CONTACTS
+call::Read/Write External Storage
+api_call::android/content/Context;->startActivity
+call::getSystemService
+intent::android.intent.category.LAUNCHER

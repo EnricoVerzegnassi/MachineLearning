@@ -1,0 +1,9 @@
+url::http://hiphopdaily.mobi/site/index.php
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+activity::.Activity1
+url::hiphopdaily.mobi

@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+service_receiver::BackgroundService
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+permission::android.permission.DEVICE_POWER
+activity::.main
+feature::android.hardware.screen.portrait
+service_receiver::RingtoneReceiver
+api_call::android/os/PowerManager$WakeLock;->acquire
+intent::android.intent.category.LAUNCHER
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

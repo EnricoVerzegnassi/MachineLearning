@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+url::http://22salon.com/bootAnims/
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+call::Execution of external commands
+activity::.Preferences
+url::22salon.com
+call::getSystemService
+url::http://22salon.com/bootAnims/list.txt
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.ACCESS_NETWORK_STATE
+activity::.TabWidget
+url::http://22salon.com/premium/list.txt
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.INTERNET
+url::http://22salon.com/premium/bootAnims/
+intent::android.intent.category.LAUNCHER

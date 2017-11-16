@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.RestoreList
+intent::org.moparisthebest.openintents.action.PICK_DIRECTORY
+url::android.moparisthebest.org
+intent::org.moparisthebest.openintents.action.PICK_FILE
+intent::android.intent.category.DEFAULT
+url::http://android.moparisthebest.org/
+intent::org.moparisthebest.openintents.filemanager.FileManagerActivity
+intent::android.intent.category.LAUNCHER
+activity::.AppBak
+call::getPackageInfo
+call::Read/Write External Storage
+call::getSystemService
+activity::org.moparisthebest.openintents.filemanager.FileManagerActivity

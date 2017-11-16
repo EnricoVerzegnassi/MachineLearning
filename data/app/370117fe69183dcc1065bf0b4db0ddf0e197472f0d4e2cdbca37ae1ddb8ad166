@@ -1,0 +1,9 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+url::www.google.com
+url::http://www.google.com
+api_call::android/os/Vibrator;->vibrate
+real_permission::android.permission.VIBRATE
+call::getPackageInfo
+api_call::android/content/Context;->startActivity
+call::getSystemService

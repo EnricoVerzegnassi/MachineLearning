@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.remover
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.READ_LOGS
+call::Execution of external commands
+activity::SystemApp Remover
+intent::android.intent.category.LAUNCHER

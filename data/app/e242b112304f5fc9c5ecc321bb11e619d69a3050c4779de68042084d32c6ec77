@@ -1,0 +1,12 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::Configuration
+permission::android.permission.INTERNET
+activity::.WebcamWidget
+intent::android.intent.category.LAUNCHER
+service_receiver::.WordWidget$UpdateService
+real_permission::android.permission.INTERNET
+provider::android.appwidget.provider
+api_call::android/content/Context;->startService

@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+call::Read/Write External Storage
+feature::android.hardware.microphone
+permission::android.permission.RECORD_AUDIO
+real_permission::android.permission.WAKE_LOCK
+url::http://www.youtube.com/watch?v%3DO2uIwznE7JY
+real_permission::android.permission.VIBRATE
+permission::android.permission.READ_EXTERNAL_STORAGE
+call::getSystemService
+api_call::android/os/PowerManager$WakeLock;->acquire
+real_permission::android.permission.RECORD_AUDIO
+activity::.PreferencesActivity
+permission::android.permission.WAKE_LOCK
+activity::.RecList
+activity::.RecorderActivity
+api_call::android/media/AudioRecord
+intent::android.intent.action.MAIN
+service_receiver::.MyService
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::www.youtube.com
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+api_call::android/app/NotificationManager;->notify

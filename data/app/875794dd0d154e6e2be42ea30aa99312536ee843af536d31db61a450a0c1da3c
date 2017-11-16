@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+activity::.Draw
+url::https://secure.zaypay.com//
+activity::.TICTACTOE
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/telephony/SmsManager;->sendTextMessage
+activity::.Play
+real_permission::android.permission.SEND_SMS
+activity::.Board
+call::sendSMS
+real_permission::android.permission.INTERNET
+activity::.Lose
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+activity::.Win
+url::secure.zaypay.com

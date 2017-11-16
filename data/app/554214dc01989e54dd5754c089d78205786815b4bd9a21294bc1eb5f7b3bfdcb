@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+api_call::android/provider/Settings$System;->putInt
+url::market.android.com
+intent::android.intent.action.MAIN
+service_receiver::.ABBootStart
+activity::.AutoBrightness
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.WRITE_SETTINGS
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+intent::android.intent.action.BOOT_COMPLETED
+permission::android.permission.WRITE_SETTINGS
+provider::android.appwidget.provider
+url::https://market.android.com/details?id%3Dauto.brightness.pro
+call::getSystemService
+service_receiver::.ABService

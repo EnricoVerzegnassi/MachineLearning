@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::.ActivationActivity
+intent::android.intent.action.MAIN
+call::getSystemService
+activity::.AndroidSoftTokenActivity
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+activity::.PreferencesActivity
+activity::.InfoActivity
+intent::android.intent.category.BROWSABLE
+intent::android.intent.action.VIEW

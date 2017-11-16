@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+activity::.activity.ImageBrowserActivity
+activity::.activity.AboutUsActivity
+activity::.LogoActivity
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.activity.KickKickActivity
+url::mobile.blogjava.net
+intent::android.intent.action.MAIN
+call::Read/Write External Storage
+intent::android.intent.category.LAUNCHER
+activity::.activity.MainActivity
+activity::.activity.LogoActivity
+url::http://mobile.blogjava.net

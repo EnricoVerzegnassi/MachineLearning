@@ -1,0 +1,5 @@
+feature::android.hardware.touchscreen
+activity::.Cipher
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.MAIN
+call::Cipher(_id)

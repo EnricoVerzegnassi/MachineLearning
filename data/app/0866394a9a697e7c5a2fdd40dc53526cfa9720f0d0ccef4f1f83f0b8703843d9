@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+api_call::android/content/Context;->startActivity
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+activity::.AppManualReaderActivity
+real_permission::android.permission.INTERNET
+intent::android.intent.action.VIEW

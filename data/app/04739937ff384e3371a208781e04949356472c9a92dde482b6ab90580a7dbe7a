@@ -1,0 +1,21 @@
+service_receiver::SiMi Folder 1x2
+activity::.SettingsWidget
+service_receiver::SiMi Folder 2x2
+activity::SiMi Folder Config
+activity::.SelectApp
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+service_receiver::SiMi Folder 1x3
+activity::.SettingsFolder
+service_receiver::SiMi Folder 1x1
+activity::.Main
+activity::TapLauncher
+service_receiver::SiMi Folder 3x1
+intent::android.intent.category.SiMiFolderSettings
+activity::.SettingsWidgetLayout
+service_receiver::SiMi Folder 2x1
+activity::.SettingsFolderItem
+activity::Select Color
+provider::android.appwidget.provider
+call::getSystemService
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,8 @@
+url::http://www.
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::https://www.
+intent::android.intent.category.LAUNCHER
+activity::.QRCodeActivity
+call::getSystemService
+url::www.

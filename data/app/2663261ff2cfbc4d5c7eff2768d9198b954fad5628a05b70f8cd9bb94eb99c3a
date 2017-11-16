@@ -1,0 +1,15 @@
+url::http://www.bcvillars.ch/epic_highlights/kaamelott/highlights_root.xml
+feature::android.hardware.touchscreen
+url::www.bcvillars.ch
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/media/MediaPlayer;->start
+activity::.Main
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+activity::.GalleryActivity
+api_call::java/net/URL;->openStream
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+api_call::android/content/Context;->startActivity
+real_permission::android.permission.WAKE_LOCK

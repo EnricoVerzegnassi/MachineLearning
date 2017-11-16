@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+url::https://my.tentoo.nl/
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::my.tentoo.nl
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.myTentoo

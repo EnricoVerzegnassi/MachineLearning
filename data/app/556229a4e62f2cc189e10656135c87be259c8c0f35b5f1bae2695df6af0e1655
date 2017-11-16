@@ -1,0 +1,12 @@
+url::http://www.facebook.com/unnutzeswissen
+feature::android.hardware.touchscreen
+url::www.facebook.com
+url::http://feeds.feedburner.com/UnntzesWissensFacebookWall
+service_receiver::.MainWidgetView$UpdateService
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::feeds.feedburner.com
+api_call::android/content/Context;->startService
+url::http://www.facebook.com
+provider::android.appwidget.provider
+api_call::java/net/URL;->openConnection

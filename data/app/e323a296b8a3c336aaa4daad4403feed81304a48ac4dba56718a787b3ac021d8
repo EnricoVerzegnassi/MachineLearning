@@ -1,0 +1,16 @@
+service_receiver::co.kr.ciec.battery.PhoneBooting
+feature::android.hardware.touchscreen
+intent::android.intent.action.SCREEN_ON
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+intent::android.intent.action.SCREEN_OFF
+intent::android.intent.action.BATTERY_CHANGED
+activity::.Main
+intent::android.intent.category.DEFAULT
+service_receiver::.BatteryReceiver
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+intent::android.intent.action.BOOT_COMPLETED
+service_receiver::BatteryFeelService
+call::getSystemService
+api_call::android/content/Context;->startService

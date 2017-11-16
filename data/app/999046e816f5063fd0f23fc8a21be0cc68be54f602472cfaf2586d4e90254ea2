@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::50.16.233.37
+activity::.TodayinhistoryActivity
+url::http://50.16.233.37/
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+real_permission::android.permission.INTERNET

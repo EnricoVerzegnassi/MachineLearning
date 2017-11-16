@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::java/net/Socket
+call::Obfuscation(Base64)
+url::fruits-stats.appspot.com
+activity::.FruitsOpengl
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://v0.cc/fruitjam
+activity::.Preferences
+call::getPackageInfo
+url::v0.cc
+call::HttpPost
+url::http://fruits-stats.appspot.com/r
+intent::android.intent.category.LAUNCHER

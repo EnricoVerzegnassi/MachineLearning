@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+url::http://www.concordebattery.com
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.faaa1
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://www.concordebattery.com/mfaa2.php?id%3D
+intent::android.intent.category.LAUNCHER
+url::www.concordebattery.com

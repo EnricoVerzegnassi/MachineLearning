@@ -1,0 +1,25 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::printStackTrace
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+activity::.Preferences
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+call::HttpPost
+url::http://finance.yahoo.com/d/quotes.csv?s%3D
+permission::android.permission.ACCESS_WIFI_STATE
+api_call::android/content/Context;->startActivity
+call::getSystemService
+url::finance.yahoo.com
+real_permission::android.permission.ACCESS_NETWORK_STATE
+url::http://d.yimg.com/autoc.finance.yahoo.com/autoc?query%3D
+feature::android.hardware.wifi
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::.StockQuotes
+feature::android.hardware.screen.portrait
+url::d.yimg.com
+intent::android.intent.category.LAUNCHER

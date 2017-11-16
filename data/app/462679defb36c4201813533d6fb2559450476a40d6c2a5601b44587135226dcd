@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::.clock
+intent::android.intent.action.MAIN
+service_receiver::Mayan Clock Free
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+provider::android.appwidget.provider

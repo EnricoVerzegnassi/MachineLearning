@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+url::turtle.libre.fm
+call::HttpPost
+real_permission::android.permission.WAKE_LOCK
+url::http://turtle.libre.fm/submissions/1.2/
+api_call::android/media/MediaPlayer;->start
+url::http://turtle.libre.fm/?hs%3Dtrue&p%3D1.2&u%3D
+url::http://alpha.libre.fm/2.0/?method%3Dauth.getmobilesession&username%3D
+url::http://alpha.libre.fm/2.0/
+activity::.LibreDroid
+url::alpha.libre.fm
+url::http://turtle.libre.fm/nowplaying/1.2/
+url::http://alpha.libre.fm/radio/adjust.php?session%3D
+service_receiver::.LibreService
+api_call::java/net/URL;->openConnection
+url::http://alpha.libre.fm/radio/handshake.php?username%3D
+intent::android.intent.action.MAIN
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://alpha.libre.fm/radio/xspf.php?sk%3D

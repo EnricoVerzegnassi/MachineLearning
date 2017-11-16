@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+service_receiver::.VNCService
+intent::android.intent.action.MAIN
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.KeyConfigSetting
+activity::.MouseInput
+activity::.VNCKeyPad
+call::getSystemService
+api_call::java/net/Socket
+activity::.KeyConfig
+activity::.KeyInput

@@ -1,0 +1,16 @@
+api_call::android/webkit/WebView
+feature::android.hardware.touchscreen
+activity::.Menu
+intent::android.intent.action.MAIN
+activity::.Intro
+activity::.Mapa
+activity::.sundeckApp
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+activity::.Ubicacion
+activity::.Lineup
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+activity::.Bio
+intent::android.intent.category.DEFAULT
+call::getSystemService

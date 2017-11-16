@@ -1,0 +1,16 @@
+api_call::android/webkit/WebView
+feature::android.hardware.touchscreen
+url::http://www.hk-android.info/app_ad/app_index_ad_h60.html
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::http://www.hk-android.info/feed
+activity::HKAandroidInfo
+url::www.hk-android.info
+url::www.youtube.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::hkandroid.info.FeedViewer
+intent::android.intent.category.LAUNCHER
+activity::.HKAandroidInfo
+url::http://www.hk-android.info/app_ad/app_postpage_ad_h60.html
+url::http://www.youtube.com/watch?v%3D$2\

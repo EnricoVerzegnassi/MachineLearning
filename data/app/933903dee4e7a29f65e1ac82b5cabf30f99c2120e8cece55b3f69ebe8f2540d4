@@ -1,0 +1,13 @@
+activity::.ActivityMain
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+url::http://www.google.com/
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::com.ieDevelopment.ieLibrary.ActivityMain
+url::www.google.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::com.ieDevelopment.ieLibrary.ActivityRSSShowDescription
+activity::com.ieDevelopment.ieLibrary.ActivityRSSReader

@@ -1,0 +1,19 @@
+feature::android.hardware.touchscreen
+activity::.Infos
+api_call::java/net/URL;->openConnection
+activity::.TabViewApp
+intent::android.intent.action.MAIN
+activity::.TabView
+activity::.Actions
+service_receiver::.Widget$UpdateService
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+service_receiver::Shakes&Fidget Notification
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+activity::.Configure
+real_permission::android.permission.INTERNET
+provider::android.appwidget.provider
+call::getSystemService
+api_call::android/content/Context;->startService

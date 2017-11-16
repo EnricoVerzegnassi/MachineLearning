@@ -1,0 +1,25 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.SEARCH_LONG_PRESS
+api_call::org/apache/http/impl/client/DefaultHttpClient
+permission::android.permission.READ_PHONE_STATE
+url::http://market.nduoa.com/update/nDuoaMarket.apk
+api_call::android/os/Vibrator;->vibrate
+permission::android.permission.INTERNET
+url::market.nduoa.com
+intent::android.intent.category.DEFAULT
+call::getPackageInfo
+api_call::android/content/Context;->startActivity
+real_permission::android.permission.VIBRATE
+call::getSystemService
+activity::.RoyVolumeControlActivity
+real_permission::android.permission.DISABLE_KEYGUARD
+feature::android.hardware.telephony
+permission::android.permission.DISABLE_KEYGUARD
+call::Read/Write External Storage
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.MODIFY_PHONE_STATE
+real_permission::android.permission.INTERNET
+permission::android.permission.VIBRATE
+intent::android.intent.category.LAUNCHER
+api_call::android/app/KeyguardManager;->exitKeyguardSecurely

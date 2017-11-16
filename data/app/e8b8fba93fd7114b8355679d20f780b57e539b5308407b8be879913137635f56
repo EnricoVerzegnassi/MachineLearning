@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::wa.arbi.se
+api_call::android/webkit/WebView
+activity::.WebActivity
+permission::android.permission.INTERNET
+url::http://wa.arbi.se/cgi-bin/android_webanalyzer_form.pl
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET

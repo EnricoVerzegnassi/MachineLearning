@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+intent::android.intent.action.PICK
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+permission::android.permission.READ_OWNER_DATA
+intent::org.openintents.action.PICK_FILE
+permission::android.permission.READ_EXTERNAL_STORAGE
+activity::.AndroidExplorer

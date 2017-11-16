@@ -1,0 +1,10 @@
+url::http://market.android.com/details?id%3Duk.co.aifactory.moveitfree
+feature::android.hardware.touchscreen
+url::market.android.com
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.BackgammonActivity
+url::http://market.android.com/details?id%3Duk.co.aifactory.chessfree
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+call::getSystemService

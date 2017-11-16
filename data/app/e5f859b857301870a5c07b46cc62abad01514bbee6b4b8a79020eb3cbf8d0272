@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openConnection
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+url::spreadsheets.google.com
+url::http://www.composed-chaos.com/forums/viewtopic.php?f%3D5&t%3D6
+url::http://www.composed-chaos.com/forums/viewtopic.php?f%3D3&t%3D7
+permission::android.permission.INTERNET
+url::http://spreadsheets.google.com/formResponse?formkey%3D
+activity::.CreateRecipeActivity
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+real_permission::android.permission.INTERNET
+call::getPackageInfo
+url::www.composed-chaos.com
+activity::.ShowRecipeActivity
+call::getSystemService

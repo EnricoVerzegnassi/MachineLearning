@@ -1,0 +1,12 @@
+activity::com.daniellobato.agorasol.Tutorials
+feature::android.hardware.touchscreen
+url::http://giss.tv:8000/acampadasol.mp3
+intent::android.intent.action.MAIN
+api_call::android/media/MediaPlayer;->start
+activity::.Tutorials
+permission::android.permission.INTERNET
+url::giss.tv
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+api_call::java/net/URL;->openConnection
+real_permission::android.permission.WAKE_LOCK

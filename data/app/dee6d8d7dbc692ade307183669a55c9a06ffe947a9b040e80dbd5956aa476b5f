@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.READ_LOGS
+url::http://carrieriqdetector.project-voodoo.org/api/post.php
+intent::android.intent.action.MAIN
+permission::android.permission.READ_LOGS
+url::http://carrieriqdetector.project-voodoo.org/
+api_call::java/lang/Runtime;->exec
+activity::.Main
+real_permission::android.permission.INTERNET
+call::Execution of external commands
+activity::org.projectvoodoo.simplecarrieriqdetector.Main
+intent::android.intent.category.LAUNCHER
+url::carrieriqdetector.project-voodoo.org
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::getPackageInfo
+call::HttpPost

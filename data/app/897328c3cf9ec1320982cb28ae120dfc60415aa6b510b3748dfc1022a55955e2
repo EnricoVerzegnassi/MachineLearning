@@ -1,0 +1,10 @@
+url::http://www.leadershipfoundation.org/
+feature::android.hardware.touchscreen
+activity::.DailyDevotion
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::www.leadershipfoundation.org
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET

@@ -1,0 +1,26 @@
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_FINE_LOCATION
+permission::android.permission.ACCESS_MOCK_LOCATION
+call::printStackTrace
+permission::android.permission.CALL_PHONE
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+url::http://corporatestay.net/webservices/phpThumb/phpThumb.php?src%3D/images/
+activity::.Splash
+real_permission::android.permission.INTERNET
+url::corporatestay.net
+feature::android.hardware.location
+feature::android.hardware.location.gps
+url::http://corporatestay.net/images/noimage.jpg
+permission::android.permission.ACCESS_COARSE_LOCATION
+url::http://corporatestay.net/webservices/webservice_propertylist.php?
+call::getSystemService
+url::http://corporatestay.net/webservices/phpThumb/phpThumb.php?src%3D
+feature::android.hardware.telephony
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+feature::android.hardware.screen.portrait
+feature::android.hardware.location.network
+url::http://corporatestay.net/webservices/webservice_contactus.php?username%3D
+intent::android.intent.category.LAUNCHER
+url::http://corporatestay.net/images/

@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.PACKAGE_ADDED
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+activity::.MainActivity
+intent::android.intent.category.DEFAULT
+provider::jp.co.c_lis.provider.apps_settings
+service_receiver::TriggerOnInstalled
+intent::android.intent.category.INFO

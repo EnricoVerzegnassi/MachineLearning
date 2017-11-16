@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+url::http://frii.nl/friispiich.php?vraag%3Dfortune&guru%3D
+url::http://frii.nl/friispiich.php?vraag%3Dguru
+intent::android.intent.action.MAIN
+permission::android.permission.INTERNET
+url::frii.nl
+intent::android.intent.category.LAUNCHER
+api_call::org/apache/http/impl/client/DefaultHttpClient
+real_permission::android.permission.INTERNET
+activity::.FriiSpiich

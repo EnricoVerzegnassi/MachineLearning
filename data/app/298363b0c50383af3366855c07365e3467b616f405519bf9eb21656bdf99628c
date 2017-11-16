@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.rr
+url::http://mobile.restrealitaet.de/
+url::mobile.restrealitaet.de
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::market.android.com
+intent::android.intent.action.MAIN
+url::http://market.android.com/search?q%3D\
+activity::.LayarActivity
+api_call::android/content/Context;->startActivity
+activity::yuku.kopitiam.base.LayarActivity
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+api_call::android/media/MediaPlayer;->start
+real_permission::android.permission.WAKE_LOCK

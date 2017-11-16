@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.ACCESS_NETWORK_STATE
+intent::android.intent.action.MAIN
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::.Main
+permission::android.permission.INTERNET
+url::https://www.pagepluscellular.com/login.aspx
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+url::https://www.pagepluscellular.com
+intent::android.intent.category.LAUNCHER
+url::http://www.pagepluscellular.com/default.aspx
+url::www.pagepluscellular.com
+real_permission::android.permission.INTERNET
+api_call::java/net/Socket
+call::getSystemService

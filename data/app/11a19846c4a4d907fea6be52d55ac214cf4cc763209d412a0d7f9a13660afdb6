@@ -1,0 +1,14 @@
+api_call::android/webkit/WebView
+feature::android.hardware.touchscreen
+url::http://mobile.vcudaily.com
+url::http://mobile.vcudaily.com/stats
+intent::android.intent.action.MAIN
+url::http://mobile.vcudaily.com/roster
+activity::.Main
+url::mobile.vcudaily.com
+permission::android.permission.INTERNET
+url::http://mobile.vcudaily.com/about
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+activity::VCU Daily
+url::http://mobile.vcudaily.com/schedule

@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+activity::.MainActivity
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+url::fucking-great-advice.ru
+url::http://fucking-great-advice.ru/api/latest
+real_permission::android.permission.INTERNET
+provider::android.appwidget.provider
+url::http://fucking-great-advice.ru/api/random
+call::getSystemService

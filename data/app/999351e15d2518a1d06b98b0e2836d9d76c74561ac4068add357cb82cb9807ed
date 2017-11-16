@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+activity::.CreditsActivity
+intent::android.intent.action.MAIN
+activity::.MainActivity
+intent::android.intent.category.LAUNCHER
+intent::android.intent.category.CREDITS

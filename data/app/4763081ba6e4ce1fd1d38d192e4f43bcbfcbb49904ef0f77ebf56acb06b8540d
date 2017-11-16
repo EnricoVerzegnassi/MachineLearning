@@ -1,0 +1,35 @@
+feature::android.hardware.touchscreen
+activity::Ringleader Pro
+call::printStackTrace
+intent::android.intent.category.HOME
+activity::.Main
+url::www.yourcompany.com
+intent::com.twofortyfouram.locale.intent.action.EDIT_SETTING
+intent::android.intent.category.DEFAULT
+url::http://www.yourcompany.com/yourhelp.html
+real_permission::android.permission.READ_CONTACTS
+call::getPackageInfo
+intent::android.intent.action.BOOT_COMPLETED
+real_permission::android.permission.WAKE_LOCK
+service_receiver::.Bootup
+intent::com.twofortyfouram.locale.intent.action.FIRE_SETTING
+api_call::android/media/MediaPlayer;->start
+url::http://handyandyapps.blogspot.com\n\n
+real_permission::android.permission.VIBRATE
+call::getSystemService
+permission::android.permission.VIBRATE
+api_call::android/content/ContentResolver;->query
+activity::.ProfileSelectDialog
+api_call::android/content/Context;->sendBroadcast
+service_receiver::Ringleader Pro 1x1
+service_receiver::Ringleader Pro 2x1
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+service_receiver::.LocaleProfileReceiver
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::Read/Write External Storage
+intent::android.intent.category.LAUNCHER
+url::handyandyapps.blogspot.com\n\n
+provider::android.appwidget.provider
+intent::android.intent.action.RINGTONE_PICKER

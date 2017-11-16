@@ -1,0 +1,15 @@
+url::www.pragprog.com
+feature::android.hardware.touchscreen
+real_permission::android.permission.VIBRATE
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+call::getSystemService
+api_call::android/os/Vibrator;->vibrate
+permission::android.permission.INTERNET
+activity::.TranslatorCP
+url::http://www.pragprog.com/titles/eband3/hello-android
+permission::android.permission.VIBRATE
+intent::android.intent.category.LAUNCHER
+url::ajax.googleapis.com
+real_permission::android.permission.INTERNET
+url::http://ajax.googleapis.com/ajax/services/language/translate?v%3D1.0&q%3D

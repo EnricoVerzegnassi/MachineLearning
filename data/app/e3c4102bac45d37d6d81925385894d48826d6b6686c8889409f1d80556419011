@@ -1,0 +1,24 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::printStackTrace
+permission::android.permission.CALL_PHONE
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+permission::android.permission.READ_CONTACTS
+call::HttpPost
+permission::android.permission.WRITE_CONTACTS
+permission::android.permission.ACCESS_WIFI_STATE
+api_call::android/content/Context;->startActivity
+activity::.SmartContactActivity
+call::getSystemService
+url::http://xmlpull.org/v1/doc/features.html
+permission::android.permission.SEND_SMS
+real_permission::android.permission.ACCESS_NETWORK_STATE
+feature::android.hardware.telephony
+intent::android.intent.action.MAIN
+feature::android.hardware.wifi
+url::xmlpull.org
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+permission::android.permission.CHANGE_WIFI_MULTICAST_STATE

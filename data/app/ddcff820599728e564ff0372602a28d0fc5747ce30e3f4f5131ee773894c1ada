@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+url::chinese.wsj.com
+activity::.RSSMe
+activity::.RSSMeUIText
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://rss.news.yahoo.com/rss/asia
+activity::.RSSMeUIAddRSS
+url::http://rss.news.yahoo.com/rss/stocks
+activity::.RSSMeUIArticle
+intent::android.intent.category.LAUNCHER
+url::http://chinese.wsj.com/gb/rss01.xml
+url::rss.news.yahoo.com
+url::http://rss.news.yahoo.com/rss/yahoonewsroom

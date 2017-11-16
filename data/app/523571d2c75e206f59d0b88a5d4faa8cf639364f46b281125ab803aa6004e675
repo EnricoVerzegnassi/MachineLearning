@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://ajax.googleapis.com/ajax/services/language/translate?v%3D1.0
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+url::ajax.googleapis.com
+api_call::org/apache/http/impl/client/DefaultHttpClient
+activity::.MushroomJa2Zh
+real_permission::android.permission.INTERNET
+call::getSystemService

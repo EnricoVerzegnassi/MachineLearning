@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::.PhysicalConstant
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::.PeriodicTableActivity
+activity::.PeriodicView
+intent::android.intent.category.LAUNCHER
+call::getSystemService

@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+intent::android.intent.action.MAIN
+api_call::android/telephony/TelephonyManager;->listen
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+url::rss.timegenie.com
+feature::android.hardware.screen.portrait
+url::http://rss.timegenie.com/forex.xml
+activity::.CurrencyConverter
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+permission::android.permission.READ_PHONE_STATE
+real_permission::android.permission.INTERNET
+real_permission::android.permission.READ_PHONE_STATE
+call::getSystemService

@@ -1,0 +1,16 @@
+url::http://labs.anyclip.com/roman/
+feature::android.hardware.touchscreen
+feature::android.hardware.location.gps
+url::api.yelp.com
+intent::android.intent.action.MAIN
+activity::.MovLoc
+api_call::android/webkit/WebView
+permission::android.permission.ACCESS_FINE_LOCATION
+url::http://api.yelp.com/business_review_search?term%3D
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+feature::android.hardware.location
+url::labs.anyclip.com
+activity::.InfoScreen
+activity::Filmsight
+intent::android.intent.category.LAUNCHER

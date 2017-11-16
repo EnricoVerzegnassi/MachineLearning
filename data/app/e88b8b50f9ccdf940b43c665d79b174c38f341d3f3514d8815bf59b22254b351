@@ -1,0 +1,19 @@
+activity::Songs
+activity::.Bibolka
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::V%C3%A1lasszon sz%C3%ADnt!
+activity::K%C3%BCld%C3%A9s SMS-ben
+activity::BK
+activity::K%C3%B6nyvjelz%C5k
+activity::K%C3%B6nyvjelz%C5 hozz%C3%A1ad%C3%A1sa
+call::getSystemService
+activity::A programr%C3%B3l
+activity::T%C3%A1mogat%C3%A1s
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+activity::K%C3%BCld%C3%A9s e-mailben
+activity::Bible
+activity::Be%C3%A1ll%C3%ADt%C3%A1sok
+intent::android.intent.category.BROWSABLE
+intent::android.intent.action.VIEW

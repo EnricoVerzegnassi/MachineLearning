@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::www.libraryofchina.com
+activity::.bookyards_books_v1
+url::http://www.libraryofchina.com/categories.html?type%3Dbooks&category_id%3D
+url::http://www.libraryofchina.com
+intent::android.intent.category.LAUNCHER

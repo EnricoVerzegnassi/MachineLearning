@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openConnection
+intent::android.intent.action.MAIN
+permission::android.permission.INTERNET
+url::http://www.dayer.biz/meteo/webcam/herens1024.jpg
+real_permission::android.permission.INTERNET
+url::www.dayer.biz
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+url::http://www.dayer.biz/meteo/webcam/heremence.jpg
+activity::.myApp

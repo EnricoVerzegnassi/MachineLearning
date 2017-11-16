@@ -1,0 +1,24 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+api_call::android/os/Vibrator;->vibrate
+intent::android.intent.category.DEFAULT
+activity::.ViewTrackEffects
+activity::.Splash
+activity::.ViewSheetEffects
+real_permission::android.permission.WAKE_LOCK
+activity::.ViewStringEffects
+api_call::android/media/MediaPlayer;->start
+activity::.AndroidFileBrowser
+activity::.Tabby
+activity::.ViewTrackTuning
+activity::.InstSelect
+real_permission::android.permission.VIBRATE
+call::getSystemService
+permission::android.permission.VIBRATE
+intent::android.intent.category.SAMPLE_CODE
+activity::.inputString
+feature::android.hardware.screen.landscape
+call::Read/Write External Storage
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.category.LAUNCHER

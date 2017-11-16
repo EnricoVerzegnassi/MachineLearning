@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+api_call::android/content/ContentResolver;->query
+intent::android.intent.category.DEFAULT
+real_permission::android.permission.READ_CONTACTS
+activity::menion.android.locus.addon.contacts.Main
+permission::android.permission.READ_CONTACTS

@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::.ShowForgot
+intent::android.intent.action.MAIN
+activity::.ShowLogin
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.ShowHelp
+activity::.ShowRegister
+intent::android.intent.category.LAUNCHER
+activity::.ShowSafetyCheck
+api_call::java/net/Socket

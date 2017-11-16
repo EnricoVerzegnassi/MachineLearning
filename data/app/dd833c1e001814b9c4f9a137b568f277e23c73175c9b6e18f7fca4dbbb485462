@@ -1,0 +1,16 @@
+activity::.MCMailActivity
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+call::getSystemService
+real_permission::android.permission.INTERNET
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+url::mcmail.android.bitplane.net
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+call::HttpPost
+url::http://mcmail.android.bitplane.net/api.php?func%3D
+api_call::android/content/Context;->startService
