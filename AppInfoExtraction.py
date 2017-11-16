@@ -1,16 +1,18 @@
 from Characteristics import Characteristics
 import pandas as pd
 import os
+from FeatureHashing import FeatureHashing
 import numpy
 
 class AppInfoExtraction:
     apps = []
     malware_index = []
     c = Characteristics()  # Create the structure for characteristics
-
+    vector_lenght = 1024
     def read_list_app(self, appDir, malwareList):
 
         malware = pd.read_csv(malwareList, sep=',')                         #inspect the .csv file understanding which file is effectively a malware
+        fh = FeatureHashing()
         for filename in os.listdir(appDir):                                 #scanning the dataset
             app = []
             #feature1=[]
@@ -21,11 +23,7 @@ class AppInfoExtraction:
                 else:
                     self.malware_index.append(0)  #Good App
 
-                for line in f.read().splitlines():
-                    arguments = line.split("::")
-                    if (len(line)>0):
-                         app.append(arguments[1])
+                feature_app=fh.hashingFeature(f, self.vector_lenght)
 
-
-                self.apps.append(app)
+                self.apps.append(feature_app)
 

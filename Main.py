@@ -3,13 +3,13 @@ from sklearn.naive_bayes import GaussianNB,MultinomialNB
 import numpy
 from sklearn.preprocessing import MultiLabelBinarizer
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import accuracy_score
+from sklearn.feature_selection import SelectKBest
 from sklearn import svm
 from AppInfoExtraction import AppInfoExtraction
 
 from sklearn.svm import SVC
-path_base="/home/verz/Documenti/Studio/Università Sapienza/Corsi/3° Semestre/Machine Learning/HW/Code/data"
-
+#path_base="/home/verz/Documenti/Studio/Università Sapienza/Corsi/3° Semestre/Machine Learning/HW/Code/data"
+path_base="/home/verz/Documenti/Studio/Università Sapienza/Corsi/3° Semestre/Machine Learning/HW/drebin/drebin"
 
 reducedMap={}
 
@@ -20,7 +20,8 @@ learningApps.read_list_app(path_base + '/app/', path_base + '/sha256_family.csv'
 #clf = GaussianNB()
 mnb = MultinomialNB()
 mlb = MultiLabelBinarizer()
-X = mlb.fit_transform(learningApps.apps)
+#X = mlb.fit_transform(learningApps.apps)
+X = numpy.asmatrix(learningApps.apps)
 Y = numpy.array(learningApps.malware_index)
 #clf.fit(X,Y)
 
